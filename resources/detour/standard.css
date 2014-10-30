@@ -17,12 +17,12 @@ h1, h2, h3, h4, h5 {
 
 h1 {
 	background: #444;
-	border-bottom: solid #ffe 1px;
 	font-size: medium; color: white;
 }
 
 h2 {
 	background: #BFB99B;
+	border-top: solid #888 1px;
 	text-transform: uppercase; font-family: "Arial Black", arial, sans-serif; color: #F4F4EA;
 }
 
@@ -84,13 +84,13 @@ p img { max-height: 500px; max-width: 500px; }
 }
 
 var a {
-	display: block; width: 100px; padding: 8px; margin-bottom: 40px; background: #56ae56;
+	display: block; width: 80px; padding: 8px; margin-bottom: 40px; background: #56ae56;
 	border: solid #267d26 1px; border-bottom-width: 3px; border-radius: 10px;
 	font-family: georgia; font-style: normal; font-size: 1em; color: white;
 }
 
 var img {
-	height: 16px; width: 16px; padding: 2px; vertical-align: middle; background: white;
+	height: 16px; width: 16px; margin-left: 4px; padding: 2px; vertical-align: middle; background: white;
 	border-radius: 2px;
 }
 
