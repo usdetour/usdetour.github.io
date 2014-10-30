@@ -1,0 +1,110 @@
+body {
+	margin: 0; overflow-y: scroll;
+	font-family: helvetica, arial, sans-serif;
+}
+
+a {
+	text-decoration: none; color: #56ae56;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0px; padding-top: 10px; padding-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+	width: 100%;
+}
+
+h1 {
+	background: #444;
+	border-bottom: solid #ffe 1px;
+	font-size: medium; color: white;
+}
+
+h2 {
+	background: #BFB99B;
+	text-transform: uppercase; font-family: "Arial Black", arial, sans-serif; color: #F4F4EA;
+}
+
+h3 {
+	background: #EBE6CA;
+	border-top: solid #888 1px; border-bottom: solid #A49F87 2px;
+	font-family: "Arial Black", sans-serif; font-size: 1.1em; text-transform: uppercase; color: #B8B398;
+}
+
+h4 {
+	padding-bottom: 0px;
+	font-style: italic; font-size: 2.2em;
+}
+
+h5 {
+	padding-top: 2px; padding-bottom: 0px;
+	font-size: 1.1em;
+}
+
+h6 {
+	width: 600px;
+	border-bottom: solid white 2px;
+	font-size: 1.1em; color: #333;
+}
+
+@media (max-width: 1024px) {
+	h6 { width: 400px; }
+}
+
+@media (max-width: 568px) {
+	h6 { width: 300px; }
+}
+
+h6 a {
+	font-family: georgia, serif; font-weight: normal; font-size: .8em;
+}
+
+hr {
+	height: 0;
+	border: 0; border-bottom: dotted #444 1px;
+}
+
+p {
+	font-family: verdana; font-size: .8em;
+}
+
+p img {
+	margin-bottom: 10px;
+}
+
+p img { max-height: 500px; max-width: 500px; }
+
+@media (max-width: 1024px) {
+	p img { max-height: 400px; max-width: 400px; }
+}
+
+@media (max-width: 568px) {
+	p img { max-height: 300px; max-width: 300px; }
+}
+
+var a {
+	display: block; width: 100px; padding: 8px; margin-bottom: 40px; background: #56ae56;
+	border: solid #267d26 1px; border-bottom-width: 3px; border-radius: 10px;
+	font-family: georgia; font-style: normal; font-size: 1em; color: white;
+}
+
+var img {
+	height: 16px; width: 16px; padding: 2px; vertical-align: middle; background: white;
+	border-radius: 2px;
+}
+
+.red { border-color: red; }
+.orange { border-color: orange; }
+.yellow { border-color: yellow; }
+.green { border-color: green; }
+.blue { border-color: #00c; }
+.purple { border-color: purple; }
+.silver { border-color: #999; }
+.gold { border-color: darkgoldenrod; }
+.brown { border-color: saddlebrown; }
+.black { border-color: black; }
+
+#contents {
+	position: absolute; float: left; top: 12px; left: 12px;
+}
