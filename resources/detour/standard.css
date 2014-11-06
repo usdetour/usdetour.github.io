@@ -106,6 +106,7 @@ var img {
 .blue { border-color: #00c; }
 .purple { border-color: purple; }
 .silver { border-color: #999; }
+.gray { border-color: #777; }
 .gold { border-color: darkgoldenrod; }
 .brown { border-color: saddlebrown; }
 .black { border-color: black; }
