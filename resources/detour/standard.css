@@ -89,7 +89,7 @@ p img { max-height: 500px; max-width: 500px; }
 }
 
 var a {
-	display: block; width: 80px; padding: 8px; margin-bottom: 40px; background: #56ae56;
+	display: block; width: 100px; padding: 8px; margin-bottom: 40px; background: #56ae56;
 	border: solid #267d26 1px; border-bottom-width: 3px; border-radius: 10px;
 	font-family: georgia; font-style: normal; font-size: 1em; color: white;
 }
@@ -110,6 +110,8 @@ var img {
 .gold { border-color: darkgoldenrod; }
 .brown { border-color: saddlebrown; }
 .black { border-color: black; }
+
+.camouflage { border-color: black; }
 
 #contents {
 	display: block;
