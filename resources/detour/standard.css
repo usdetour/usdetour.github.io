@@ -2,6 +2,10 @@ a {
 	text-decoration: none; color: #56ae56;
 }
 
+abbr {
+	border-bottom: dotted 1px;
+}
+
 body {
 	margin: 0px; overflow-y: scroll;
 	font-family: helvetica, arial, sans-serif;
@@ -100,6 +104,7 @@ var img {
 }
 
 .red { border-color: red; }
+.maroon { border-color: darkred; }
 .orange { border-color: orange; }
 .yellow { border-color: yellow; }
 .green { border-color: green; }
