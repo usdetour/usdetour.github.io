@@ -1,10 +1,10 @@
-body {
-	margin: 0; overflow-y: scroll;
-	font-family: helvetica, arial, sans-serif;
-}
-
 a {
 	text-decoration: none; color: #56ae56;
+}
+
+body {
+	margin: 0px; overflow-y: scroll;
+	font-family: helvetica, arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -15,9 +15,19 @@ h1, h2, h3, h4, h5 {
 	width: 100%;
 }
 
+h2, h3, h4, h5, h6, p, var a {
+	margin-left: auto; margin-right: auto;
+	text-align: center;
+}
+
 h1 {
 	background: #444;
-	font-size: medium; color: white;
+	vertical-align: middle; font-family: georgia, serif; font-size: 1.1em; color: white;
+}
+
+h1 a {
+	margin-left: 13px; margin-right: 13px;
+	color: white;
 }
 
 h2 {
@@ -106,5 +116,7 @@ var img {
 .black { border-color: black; }
 
 #contents {
-	position: absolute; float: left; top: 12px; left: 12px;
+	display: block;
+	float: right;
+	margin-top: 2px;
 }
