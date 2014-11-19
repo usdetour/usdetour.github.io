@@ -82,6 +82,10 @@ h6 a {
 	display: block;
 }
 
+h6 a:visited {
+	color: #75267D;
+}
+
 h6 span {
 	font-family: georgia, serif; font-weight: normal; font-size: .8em;
 }
