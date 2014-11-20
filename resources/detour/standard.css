@@ -82,7 +82,7 @@ h6 a {
 	display: block;
 }
 
-h6 a:visited {
+h5 a:visited, h6 a:visited, p a:visited {
 	color: #75267D;
 }
 
@@ -108,7 +108,7 @@ p img {
 	margin-bottom: 10px;
 }
 
-p img { max-height: 500px; max-width: 500px; }
+p img { max-height: 400px; max-width: 500px; }
 
 @media (max-width: 1024px) {
 	p img { max-height: 400px; max-width: 400px; }
@@ -138,6 +138,7 @@ var img {
 .orange { border-color: orange; }
 .yellow { border-color: yellow; }
 .green { border-color: green; }
+.darkgreen { border-color: darkgreen; }
 .blue { border-color: #00c; }
 .purple { border-color: purple; }
 .silver { border-color: #999; }
