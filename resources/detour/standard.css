@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 0px;
 }
 
-h1, h2, h3, h4, h5, h6, p, var a {
+h1, h2, h3, h4, h5, h6, p, var {
 	margin-left: auto; margin-right: auto;
 	text-align: center;
 }
@@ -92,11 +92,11 @@ h6 span {
 
 hr {
 	height: 0;
-	border: 0; border-bottom: dotted 1px #444;
+	border: 0; border-bottom: dotted 1px #777;
 }
 
 hr.divider {
-	border-bottom-style: solid;
+	border-bottom: solid 2px #777;
 }
 
 p {
@@ -118,14 +118,18 @@ p img { max-height: 500px; max-width: 500px; }
 	p img { max-height: 300px; max-width: 300px; }
 }
 
+var {
+	display: block; margin-bottom: 40px;
+}
+
 var a {
-	display: block; width: 100px; padding: 8px; margin-bottom: 40px; background: #56ae56;
+	width: 100px; margin-right: 10px; padding: 8px; background: #56ae56;
 	border: solid #267d26 1px; border-bottom-width: 3px; border-radius: 10px;
-	font-family: georgia; font-style: normal; font-size: 1em; color: white;
+	font-family: georgia; font-style: normal; font-size: 1em; color: #fff;
 }
 
 var img {
-	height: 16px; width: 16px; margin-left: 4px; padding: 2px; vertical-align: middle; background: white;
+	height: 16px; width: 16px; margin-left: 4px; padding: 2px; vertical-align: bottom; background: #fff;
 	border-radius: 2px;
 }
 
