@@ -6,7 +6,7 @@ a:not([href]) {
 	color: #aaa;
 }
 
-a[disabled] {
+a.disabled {
 
 }
 
@@ -14,9 +14,22 @@ abbr {
 	border-bottom: dotted 1px;
 }
 
+address {
+	padding: 10px; background: #444;
+	text-align: center; font-family: georgia, serif; font-style: normal; font-size: 1em; color: #eee;
+}
+
+address a {
+	display: block;
+}
+
 body {
 	margin: 0px; overflow-y: scroll;
 	font-family: helvetica, arial, sans-serif; font-size: 14pt; color: #444;
+}
+
+body.dark {
+	background: #444;
 }
 
 h1, h2, h3, h4, h5, h6, p {
