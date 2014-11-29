@@ -15,12 +15,13 @@ abbr {
 }
 
 address {
-	padding: 10px; background: #444;
-	text-align: center; font-family: georgia, serif; font-style: normal; font-size: 1em; color: #eee;
+	padding: 20px; background: #444;
+	text-align: center; font-family: georgia, sans-serif; font-style: normal; font-weight: bold; font-size: 1em; color: #fff;
 }
 
 address a {
-	display: block;
+	display: block; padding-bottom: 20px;
+	color: inherit;
 }
 
 body {
@@ -28,8 +29,14 @@ body {
 	font-family: helvetica, arial, sans-serif; font-size: 14pt; color: #444;
 }
 
-body.dark {
+.dark {
 	background: #444;
+	
+}
+
+p.dark {
+	padding-top: 14px;
+	font-family: georgia, serif; color: #eee;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -41,25 +48,29 @@ h1, h2, h3, h4, h5, h6, p, var {
 	text-align: center;
 }
 
-h1 a, h2 a, h3 a, h4, h5, h6, p {
+h3 a, h4, h5, h6, p {
 	display: block; width: 100%; padding-top: 15px; padding-bottom: 15px;
 	color: inherit;
 }
 
 h1 {
-	background: #444;
+	background: #444; padding-top: 20px;
 	vertical-align: middle; font-family: georgia, serif; font-size: 1.1em; color: #fff;
 }
 
-h1 span {
+h2 {
+	background: #444; padding-bottom: 20px;
 	font-size: .8em;
+	vertical-align: middle; font-family: georgia, serif; color: #fff;
 }
 
-h2 {
+h3 {
 	background: #BFB99B;
 	border-bottom: solid 1px #A49F87;
-	text-transform: uppercase; font-family: "Arial Black", helvetica, arial, sans-serif; color: #fff;
+	text-transform: uppercase; font-family: "Arial Black", helvetica, arial, sans-serif; font-size: 1.5em; color: #fff;
 }
+
+/*
 
 h3 {
 	padding: 10px 0px; background: #EBE6CA;
@@ -70,6 +81,8 @@ h3 {
 h3 span {
 	text-transform: none; font-size: .8em;
 }
+
+*/
 
 h4 {
 	padding-bottom: 0px;
