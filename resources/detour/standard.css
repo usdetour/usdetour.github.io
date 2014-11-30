@@ -101,7 +101,7 @@ h5 a:visited, h6 a:visited, p a:visited {
 h6 {
 	width: 50%; margin-bottom: 10px;
 	border-bottom: solid white 2px;
-	font-family: georgia; font-size: 1em;
+	font-family: georgia, serif; font-size: .9em; font-style: italic; font-weight: normal; color: #555;
 }
 
 @media (max-width: 1024px) {
@@ -112,12 +112,9 @@ h6 {
 	h6 { width: 300px; }
 }
 
-h6 a {
+h6 a:first-child {
 	display: block;
-}
-
-h6 span {
-	font-weight: normal; font-style: italic; font-size: .9em; color: #555;
+	font-style: normal; font-weight: bold; font-size: 1em;
 }
 
 hr {
@@ -165,10 +162,6 @@ var img {
 	border-radius: 2px;
 }
 
-.homedepot {
-	background: rgb(255, 102, 0);
-}
-
 .red { border-color: red; }
 .maroon { border-color: darkred; }
 .orange { border-color: orange; }
@@ -183,8 +176,16 @@ var img {
 .brown { border-color: saddlebrown; }
 .black { border-color: black; }
 
+.homedepot { background: #fe6a00; }
+.knifecenter { background: #f15a2b; }
+
 #contents {
 	display: block;
 	float: right;
 	margin-top: 2px;
+}
+
+.listed {
+	display: none;
+	font-size: .8em; color: #888;
 }
