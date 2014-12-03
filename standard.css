@@ -3,7 +3,7 @@ a {
 }
 
 a:not([href]) {
-	color: #aaa;
+	color: #444;
 }
 
 a.disabled {
@@ -103,7 +103,7 @@ h4 {
 
 h5 {
 	padding-top: 2px;
-	font-size: 1em;
+	font-size: 1.3em;
 }
 
 h5 a:visited, h6 a:visited, p a:visited {
