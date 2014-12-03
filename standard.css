@@ -39,6 +39,12 @@ p.dark {
 	font-family: georgia, serif; color: #eee;
 }
 
+code {
+	display: block; width: 25%; margin-top: 10px; margin-left: auto; margin-right: auto; padding: 4px; background: #eee;
+	border-radius: 4px;
+	font-style: normal; color: #444;
+}
+
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0px;
 }
@@ -190,6 +196,7 @@ var img {
 .green { border-color: green; }
 .darkgreen { border-color: darkgreen; }
 .blue { border-color: #00c; }
+.lightblue { border-color: lightblue; }
 .purple { border-color: purple; }
 .silver { border-color: #999; }
 .gray { border-color: #777; }
@@ -207,7 +214,7 @@ var img {
 	margin-top: 2px;
 }
 
-.listed {
-	display: none;
+.discovered {
+	/*display: none;*/
 	font-size: .8em; color: #888;
 }
