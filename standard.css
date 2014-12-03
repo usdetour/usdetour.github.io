@@ -40,9 +40,9 @@ p.dark {
 }
 
 code {
-	display: block; width: 25%; margin-top: 10px; margin-left: auto; margin-right: auto; padding: 4px; background: #eee;
-	border-radius: 4px;
-	font-style: normal; color: #444;
+	display: block; width: 150px; margin-top: 10px; margin-left: auto; margin-right: auto; padding: 4px; background: #fafafa;
+	border: solid 1px #ddd; border-bottom: solid 2px #d5d5d5; border-radius: 16px;
+	font-family: monaco, consolas, monospace; font-style: normal; font-size: .8em; color: #777;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -126,17 +126,8 @@ h6 {
 
 h6 a:first-child {
 	display: block;
-	font-style: normal; font-weight: bold; font-size: 1em;
+	font-style: normal; font-weight: bold; font-size: 1.1em;
 }
-
-/*
-h6 a:last-child {
-	display: block; margin-bottom: 40px;
-	font-family: georgia; font-style: normal; color: #fff;
-	width: 100px; margin-right: 10px; padding: 10px; background: red;
-	border: solid #267d26 1px; border-bottom-width: 3px; border-radius: 10px;
-}
-*/
 
 hr {
 	height: 0;
@@ -168,7 +159,7 @@ p img { max-height: 400px; max-width: 500px; }
 
 var {
 	display: block; margin-bottom: 40px;
-	font-family: georgia; font-style: normal; color: #fff;
+	font-family: georgia; font-style: normal; font-weight: normal; color: #fff;
 }
 
 var a {
@@ -178,14 +169,14 @@ var a {
 }
 
 var b {
-	padding: 2px; background: #3D7B3D;
-	border-radius: 4px;
+	margin-left: 2px; padding: 4px; background: #267d26;
+	border-bottom: solid 1px #216B21; border-radius: 4px;
 	font-family: helvetica, arial, sans-serif; font-size: .8em; color: #eee;
 }
 
 var img {
 	height: 16px; width: 16px; vertical-align: middle;
-	margin-left: 4px; margin-top: -4px; padding: 2px; background: #fff;
+	margin-left: 4px; margin-top: -2px; padding: 2px; background: #fff;
 	border-radius: 2px;
 }
 
@@ -215,6 +206,6 @@ var img {
 }
 
 .discovered {
-	/*display: none;*/
+	display: none;
 	font-size: .8em; color: #888;
 }
