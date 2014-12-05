@@ -1,0 +1,32 @@
+.red { border-color: red; }
+.maroon { border-color: darkred; }
+
+.orange { border-color: orange; }
+.peach { border-color: #E8C088; }
+.amber { border-color: #F3AE2E; }
+
+.yellow { border-color: yellow; }
+.lightyellow { border-color: #F6EDAB; }
+
+.green { border-color: green; }
+.lime { border-color: rgb(163, 224, 85); }
+.olive { border-color: #939739 }
+.teal { border-color: #92BD88; }
+.darkgreen { border-color: darkgreen; }
+
+.blue { border-color: #00c; }
+.lightblue { border-color: lightblue; }
+
+.purple { border-color: purple; }
+
+.white { border-color: #eee; }
+.gray { border-color: #777; }
+.silver { border-color: #999; }
+.black { border-color: black; }
+
+.gold { border-color: darkgoldenrod; }
+.brown { border-color: saddlebrown; }
+
+.homedepot { background: #fe6a00; }
+.knifecenter { background: #f15a2b; }
+.casa { background: #84a5ae; }

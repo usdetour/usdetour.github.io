@@ -1,6 +1,6 @@
 a {
 	text-decoration: none; color: #56ae56;
-	border-bottom: solid 1px #56ae56;
+	/*border-bottom: solid 1px #56ae56;*/
 }
 
 a:not([href]) {
@@ -39,7 +39,8 @@ p.dark {
 }
 
 code {
-	display: block; width: 150px; margin-top: 10px; margin-left: auto; margin-right: auto; padding: 4px; background: #fafafa;
+	display: none;
+	display: block; width: 200px; margin-top: 10px; margin-left: auto; margin-right: auto; padding: 4px; background: #fafafa;
 	border: solid 1px #ddd; border-bottom: solid 2px #d5d5d5; border-radius: 16px;
 	font-family: monaco, consolas, monospace; font-style: normal; font-size: .8em; color: #777;
 }
@@ -126,17 +127,22 @@ h6 {
 }
 
 h6 a:first-child {
-	font-style: normal; font-weight: bold; font-size: 1.1em;
+	font-style: normal !important; font-weight: bold !important; font-size: 1.1em;
 	border-bottom-color: #56ae56;
 }
 
 h6 em {
 	display: block;
+	/*
+	width: 200px; margin-top: 4px; margin-left: auto; margin-right: auto; padding: 3px; background: lightyellow;
+	border: solid #eee 1px; border-bottom: solid #aaa 1px;
+	color: #777;
+	*/
 }
 
 h5 a:visited, h6 a:visited, p a:visited {
-	color: #75267D;
-	border-bottom-color: #75267D;
+	color: #78497C;
+	border-bottom-color: #78497C;
 }
 
 hr {
@@ -216,12 +222,12 @@ var strong img {
 }
 
 var a:visited {
-	background-color: #75267D;
-	border-color: #5B1E61;
+	background-color: #78497C;
+	border-color: #58365A;
 }
 
 var a:visited strong {
-	background-color: #5B1E61;
+	background-color: #58365A;
 	border-color: #47194C;
 }
 
@@ -238,25 +244,6 @@ var a:visited strong img {
 sup {
 	font-size: .6em;
 }
-
-.red { border-color: red; }
-.maroon { border-color: darkred; }
-.orange { border-color: orange; }
-.yellow { border-color: yellow; }
-.green { border-color: green; }
-.darkgreen { border-color: darkgreen; }
-.blue { border-color: #00c; }
-.lightblue { border-color: lightblue; }
-.purple { border-color: purple; }
-.silver { border-color: #999; }
-.gray { border-color: #777; }
-.gold { border-color: darkgoldenrod; }
-.brown { border-color: saddlebrown; }
-.black { border-color: black; }
-
-.homedepot { background: #fe6a00; }
-.knifecenter { background: #f15a2b; }
-.casa { background: #84a5ae; }
 
 #contents {
 	display: block;
