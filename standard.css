@@ -124,12 +124,14 @@ h6 em {
 	*/
 }
 
-h6 pre {
-	display: block; width: 50%; margin: 5px auto; padding: 4px;
+/*
+p.size, p.color, p.model {
+	width: 50%; margin: 5px auto 0px; padding: 4px;
 	border: dashed 1px #7E7A68;
 	text-align: center;
 	font-family: helvetica, arial, sans-serif; font-style: normal; font-size: .9em; font-weight: bold; color: #7E7A68;
 }
+*/
 
 h6 code {
 	display: block; width: 50%; margin-top: 5px; margin-left: auto; margin-right: auto; padding: 4px;
@@ -137,6 +139,17 @@ h6 code {
 	text-align: center;
 	font-family: monaco, consolas, monospace; font-style: normal; font-size: .8em; color: #A49F87;
 }
+
+h6 code:before {
+	content: "Model "
+}
+
+/*
+h6 summary {
+	margin: 4px;
+	cursor: pointer;
+}
+*/
 
 h5 a:visited, h6 a:visited, p a:visited {
 	color: #78497C;
@@ -182,10 +195,11 @@ p.origin strong {
 }
 
 p.origin strong a {
-	color: #E4C5BA;
+	color: #7E7A68;
 }
 
 p.discovered {
 	display: none;
+	margin-top: 15px;
 	font-size: .8em; color: #888;
 }
