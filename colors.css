@@ -14,7 +14,7 @@
 .teal { border-color: #92BD88; }
 .darkgreen { border-color: darkgreen; }
 
-.blue { border-color: #00c; }
+.blue { border-bottom-color: #00c; }
 .lightblue { border-color: lightblue; }
 
 .purple { border-color: purple; }
@@ -25,7 +25,7 @@
 .black { border-color: black; }
 
 .gold { border-color: darkgoldenrod; }
-.brown { border-color: saddlebrown; }
+.brown { color: saddlebrown; border-color: saddlebrown; }
 
 .homedepot { background: #fe6a00; }
 .knifecenter { background: #f15a2b; }
