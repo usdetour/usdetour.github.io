@@ -1,16 +1,108 @@
-ul {
-	
+a {
+	text-decoration: none;
+	color: #444;
 }
 
-ul a {
-	text-transform: uppercase; font-family: "Arial Black", helvetica, arial, sans-serif; color: #444;
+address {
+	margin: 20px 5px; padding-top: 10px;
+	border-top: solid 3px #444;
 }
 
-ul li {
-	border-bottom: dotted 1px #444;
-	font-size: 1.5em;
+address a {
+	border-bottom: solid 1px #444;
 }
 
-ul ul li {
+body {
+	font-family: georgia, times, serif; color: #444;
+}
+
+h1, h2, h3, h4, h6 {
+	margin: 5px;
+}
+
+h1, h2 {
+	margin: 20px 5px;
+}
+
+h2 {
+	border-bottom: solid 3px #444;
+}
+
+h3 {
+	margin-top: 30px; margin-bottom: 10px;
+	border-bottom: solid 2px #777;
+	font-size: 1.4em;
+}
+
+h4, h5 {
+	display: inline;
+	margin-top: 20px;
+	font-size: 1.2em;
+}
+
+h5 {
+	margin-left: -4px;
 	font-size: 1em;
+}
+
+h6 {
+	display: inline; padding-left: 5px;
+	border-left: solid 15px white;
+	font-size: 1em;
+}
+
+h6 em {
+	font-size: .8em;
+}
+
+h6 code {
+	font-size: 1.2em;
+	display: none;
+}
+
+hr {
+	height: 0; margin-left: 5px; margin-right: 5px;
+	border: 0; border-bottom: solid 1px #aaa;
+}
+
+hr.divider {
+	margin-top: 20px;
+	border-bottom: none;
+}
+
+img {
+	max-height: 64px; max-width: 64px;
+	float: left;
+	display: none;
+}
+
+p {
+	display: none
+}
+
+p.media {
+	display: block;
+}
+
+p.media a.list {
+	display: none;
+}
+
+p.media a.catalog {
+	border-bottom: solid 1px #444;
+	cursor: pointer;
+}
+
+var {
+	display: inline;
+}
+
+var a {
+	display: none; float: right;
+	margin-top: -6px; margin-left: 10px; padding: 3px;
+	font-weight: bold;
+}
+
+var a.direct {
+	display: block;
 }

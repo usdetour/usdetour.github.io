@@ -188,11 +188,13 @@ p.origin strong a {
 	color: #7E7A68;
 }
 
+/*
 p.origin strong:hover {
 	background: #7E7A68;
 	color: #fff;
 	cursor: pointer;
 }
+*/
 
 p.discovered {
 	display: none;
@@ -200,14 +202,14 @@ p.discovered {
 	font-size: .8em; color: #888;
 }
 
-p.media a {
+p.media a.list {
 	display: inline;
 	border-bottom: solid 1px #fff;
 	color: inherit;
 	cursor: pointer;
 }
 
-p.media a.screen {
+p.media a.catalog {
 	display: none;
 }
 
