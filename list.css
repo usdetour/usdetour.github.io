@@ -1,0 +1,16 @@
+ul {
+	
+}
+
+ul a {
+	text-transform: uppercase; font-family: "Arial Black", helvetica, arial, sans-serif; color: #444;
+}
+
+ul li {
+	border-bottom: dotted 1px #444;
+	font-size: 1.5em;
+}
+
+ul ul li {
+	font-size: 1em;
+}

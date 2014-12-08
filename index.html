@@ -2,9 +2,10 @@
 <html lang="en-US">
 <head>
 	<title>U.S. Detour</title>
-	<link rel="stylesheet" href="standard.css">
-	<link rel="stylesheet" href="var.css">
 	<link rel="stylesheet" href="colors.css">
+	<link rel="stylesheet" media="screen" href="screen.css">
+	<link rel="stylesheet" media="print" href="print.css">
+	<script src="media.js"></script>
 	<meta name="description" content="America&rsquo;s Best Stuff">
 	<meta name="author" content="The Terry Family">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +16,7 @@
 		<h1>
 			<img src="logo.png" alt="U.S. Detour">
 			U.S. Detour
-			<p class="description">
+			<p>
 				America&rsquo;s Best Stuff
 			</p>
 		</h1>
@@ -25,7 +26,7 @@
 			Bed &amp; Bath
 		</a>
 	</h2>
-	<h4>
+	<h4 id="towels">
 		Towels
 	</h4>
 	<h5>
@@ -42,12 +43,21 @@
 		<strong>Made in <span title="Griffin, GA">Georgia</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#madalyn">Madalyn Terry</a>, in Kennebunkport, Maine, on November 29, 2014.
+		Discovered by <a href="about.html#madalyn">Madalyn Terry</a> in the fall of 2014.
 	</p>
 	<hr>
-	<h6 class="gray">
+	<h6 id="towels/bath" class="gray">
 		<a>Bath Towel</a>
 		<em>Stone Gray</em>
+		<!--
+			<label>
+				<input type="checkbox">
+				<select>
+					<option>Stone Gray</option>
+					<option>Water Blue</option>
+				</select>
+			</label>
+		-->
 		<code>#BX04928STON</code>
 	</h6>
 	<img src="resources/1888-mills/BX04930STON.jpg" alt="Bath Towel">
@@ -68,7 +78,7 @@
 		-->
 	</var>
 	<hr>
-	<h6 class="gray">
+	<h6 id="towels/hand" class="gray">
 		<a>Hand Towel</a>
 		<em>Stone Gray</em>
 		<code>#HX04932STON</code>
@@ -81,8 +91,8 @@
 		</a>
 	</var>
 	<hr>
-	<h6 class="gray">
-		<a>Washcloth</a>
+	<h6 id="towels/wash" class="gray">
+		<a href="contents.html#towels/wash">Washcloth</a>
 		<em>Stone Gray</em>
 		<code>#WX04936STON</code>
 	</h6>
@@ -94,8 +104,8 @@
 		</a>
 	</var>
 	<hr class="divider">
-	<h4>
-		Household Cleaners
+	<h4 id="soaps">
+		Soaps
 	</h4>
 	<h5>
 		by
@@ -112,11 +122,11 @@
 		<strong>Made in Massachusetts &amp; Vermont</strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#madalyn">Madalyn Terry</a>, in Kennebunkport, Maine, on November 29, 2014.
+		Discovered by <a href="about.html#madalyn">Madalyn Terry</a> in the fall of 2014.
 	</p>
 	<hr>
-	<h6 class="gray">
-		<a href="http://commongoodandco.com/collections/all/products/hand-soap-16oz-glass-bottle">Hand Soap</a>
+	<h6 id="soaps/hand" class="gray">
+		<a href="contents.html#soaps/hand">Hand Soap</a>
 		<em>16 fl. oz.</em>
 	</h6>
 	<img src="resources/common-good/hand-soap.jpg" alt="Hand Soap">
@@ -126,8 +136,8 @@
 		</a>
 	</var>
 	<hr>
-	<h6 class="gray">
-		<a href="http://commongoodandco.com/collections/all/products/dish-soap-16oz-glass-bottle">Dish Soap</a>
+	<h6 id="soaps/dish" class="gray">
+		<a href="contents.html#soaps/dish">Dish Soap</a>
 		<em>16 fl. oz.</em>
 	</h6>
 	<img src="resources/common-good/dish-soap.jpg" alt="Dish Soap">
@@ -137,8 +147,8 @@
 		</a>
 	</var>
 	<hr>
-	<h6 class="gray">
-		<a href="http://commongoodandco.com/collections/all/products/all-purpose-16oz-glass-bottle">All Purpose Spray</a>
+	<h6 id="soaps/spray" class="gray">
+		<a href="contents.html#soaps/spray">All Purpose Spray</a>
 		<em>16 fl. oz.</em>
 	</h6>
 	<img src="resources/common-good/all-purpose-spray.jpg" alt="All Purpose Sprat">
@@ -148,8 +158,8 @@
 		</a>
 	</var>
 	<hr>
-	<h6 class="gray">
-		<a href="http://www.commongoodandco.com/collections/all/products/laundry-detergent-32oz-glass-bottle">Laundry Detergent</a>
+	<h6 id="soaps/laundry" class="gray">
+		<a href="contents.html#soaps/laundry">Laundry Detergent</a>
 		<em>32 fl. oz.</em>
 	</h6>
 	<img src="resources/common-good/laundry-detergent.jpg" alt="Laundry Detergent">
@@ -186,10 +196,10 @@
 		<strong>Made in <span title="Toledo, OH">Ohio</abbr> &amp; <span title="Shreveport, LA">Louisiana</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#mark">Mark Terry</a>, in Kennebunkport, Maine, in 2013.
+		Discovered by <a href="about.html#mark">Mark Terry</a> in 2013?
 	</p>
 	<hr>
-	<h6 class="peach">
+	<h6 id="drinking-glasses/cooler" class="peach">
 		<a href="https://retail.libbey.com/Product-Repository/Cooler2">Cooler</a>
 		<em>Set of 4; 15&frac12; fl. oz.</em>
 		<code>#3100924936 2369</code>
@@ -201,7 +211,7 @@
 		</a>
 	</var>
 	<hr>
-	<h6 class="orange">
+	<h6 id="drinking-glasses/juice" class="orange">
 		<a class="direct" href="https://retail.libbey.com/Product-Repository/Juice-Glasses2">Juice</a>
 		<em>Set of 4; 5&frac12; fl. oz.</em>
 		<code>#3100924934 149</code>
@@ -213,7 +223,7 @@
 		</a>
 	</var>
 	<hr>
-	<h6 class="teal">
+	<h6 id="drinking-glasses/soda" class="teal">
 		<a href="https://retail.libbey.com/Product-Repository/Classic-Soda">Soda</a>
 		<em>Set of 6; 12 fl. oz.</em>
 		<code>#3100946033 5110S6</code>
@@ -237,7 +247,7 @@
 		</a>
 	</var>
 	<hr>
-	<h6 class="brown">
+	<h6 id="drinking-glasses/mug" class="brown">
 		<a href="https://retail.libbey.com/Product-Repository/Heidelberg-Mug">Mug</a>
 		<em>Set of 4; 16 fl. oz.</em>
 		<code>#3100927956 89587</code>
@@ -249,7 +259,7 @@
 		</a>
 	</var>
 	<hr>
-	<h6 class="lightyellow">
+	<h6 id="drinking-glasses/trumpet-flute" class="lightyellow">
 		<a class="direct" href="https://retail.libbey.com/Product-Repository/Trumpet-Flute">Trumpet Flute</a>
 		<em>Set of 6; 6&frac12; fl. oz.</em>
 		<code>#3100927416 89554</code>
@@ -261,7 +271,7 @@
 		</a>
 	</var>
 	<hr>
-	<h6 class="lightyellow">
+	<h6 id="drinking-glasses/white-wine" class="lightyellow">
 		<a class="direct" href="https://retail.libbey.com/Product-Repository/White-Wine3">White Wine</a>
 		<em>Set of 4; 14 fl. oz.</em>
 		<code>#3100929355 3011S4B</code>
@@ -273,7 +283,7 @@
 		</a>
 	</var>
 	<hr>
-	<h6 class="maroon">
+	<h6 id="drinking-glasses/red-wine" class="maroon">
 		<a class="direct" href="https://retail.libbey.com/Product-Repository/Red-Wine-Stemware">Red Wine</a>
 		<em>Set of 6; 18&frac14; fl. oz.</em>
 		<code>#3100926439 89389</code>
@@ -285,7 +295,7 @@
 		</a>
 	</var>
 	<hr>
-	<h6 class="olive">
+	<h6 id="drinking-glasses/martini" class="olive">
 		<a class="direct" href="https://retail.libbey.com/Product-Repository/Martini-Stemware3">
 			Cocktail
 		</a>
@@ -299,8 +309,8 @@
 		</a>
 	</var>
 	<hr>
-	<h6 class="lime">
-		<a href="https://retail.libbey.com/Product-Repository/Rocks">Rocks</a>
+	<h6 id="drinking-glasses/rocks" class="lime">
+		<a href="contents.html#drinking-glasses/rocks">Rocks</a>
 		<em>Set of 4; 11 fl. oz.</em>
 		<code>#3100924935 917CD</code>
 	</h6>
@@ -330,10 +340,10 @@
 		Aluminum and plastic.
 	</p>
 	<p class="origin">
-		<strong>Made in <span title="FL">Florida</span></strong>
+		<strong>Made in <span title="Fort Pierce, FL">Florida</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#max">Max Terry</a>, in Kennebunkport, Maine, in the winter of 2010.
+		Discovered by <a href="about.html#max">Max Terry</a> in the winter of 2010?
 	</p>
 	<hr>
 	<h6 class="gold">
@@ -344,10 +354,10 @@
 	<img src="resources/zeroll/1020.jpg" alt="The 1020">
 	<var>
 		<a class="direct" href="http://zeroll.com/store.php?productID=15">
-			$?<sup>.?</sup>
+			$18<sup>.15</sup>
 		</a>
 		<a href="http://amazon.com/dp/B0002U34EW">
-			$14<sup>.44</sup>
+			$18<sup>.15</sup>
 			<strong>via Amazon <img src="resources/amazon/logo.ico" alt="via Amazon"></strong>
 		</a>
 	</var>
@@ -404,7 +414,7 @@
 		<strong>Made in <span title="Charleroi, PA">Pennsylvania</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#frances">Frances Terry</a>, in Maine, in 2012.
+		Discovered by <a href="about.html#frances">Frances Terry</a> in the summer of 2012?
 	</p>
 	<hr>
 	<h6 class="silver">
@@ -439,7 +449,7 @@
 		<strong>Made in <span title="Sheboygan, WI">Wisconsin</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#max">Max Terry</a>, in Westbrook, Maine, in November 2014.
+		Discovered by <a href="about.html#max">Max Terry</a> in the summer of 2010.
 	</p>
 	<hr>
 	<h6 class="maroon">
@@ -474,7 +484,7 @@
 		<strong>Made in <span title="South Pittsburg, TN">Tennessee</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#max">Max Terry</a>, in Westbrook, Maine, in November 2014.
+		Discovered by <a href="about.html#max">Max Terry</a> in the fall of 2014.
 	</p>
 	<hr>
 	<h6 class="black">
@@ -521,7 +531,7 @@
 		<strong>Made in <span title="Denver, CO">Colorado</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#madalyn">Madalyn Terry</a>, in Kennebunkport, Maine, on November 29, 2014.
+		Discovered by <a href="about.html#madalyn">Madalyn Terry</a> in the fall of 2014.
 	</p>
 	<hr>
 	<h6 class="black">
@@ -562,7 +572,7 @@
 		<strong>Made in <span title="Rockford, IL">Illinois</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#max">Max Terry</a>, in Bangor, Maine, in 2013.
+		Discovered by <a href="about.html#max">Max Terry</a> in 2013?
 	</p>
 	<hr>
 	<h6 class="brown">
@@ -603,7 +613,7 @@
 		<strong>Made in <span title="Old Town, ME">Maine</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#max">Max Terry</a>, in Old Town, Maine, in the fall of 2007.
+		Discovered by <a href="about.html#max">Max Terry</a> in the fall of 2007.
 	</p>
 	<hr>
 	<h6 class="darkgreen">
@@ -639,7 +649,7 @@
 		<strong>Made in <span title="Olean, NY">New York</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#max">Max Terry</a>, in Westbrook, Maine, on November 29, 2014.
+		Discovered by <a href="about.html#max">Max Terry</a> in the fall of 2014.
 	</p>
 	<hr>
 	<h6 class="black">
@@ -717,7 +727,7 @@
 		<strong>Made in <span title="Bushnell, IL">Illinois</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#max">Max Terry</a>, in Portland, Maine, in the fall of 2014.
+		Discovered by <a href="about.html#max">Max Terry</a> in the fall of 2014.
 	</p>
 	<hr>
 	<h6 class="blue">
@@ -760,7 +770,7 @@
 		<strong>Made in <span title="Charlotte, NC">North Carolina</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by Max Terry, in Westbrook, Maine, in the fall of 2014.
+		Discovered by <a href="about.html#max">Max Terry</a> in the fall of 2014.
 	</p>
 	<hr>
 	<h6 class="black">
@@ -799,7 +809,7 @@
 		<strong>Made in <span title="Mansfield, TX">Texas</span></strong>
 	</p>
 	<p class="discovered">
-		Discovered by <a href="about.html#max">Max Terry</a>, in Washington, D.C., on October 16, 2014.
+		Discovered by <a href="about.html#frances">Frances Terry</a> in the 1960s.
 	</p>
 	<hr>
 	<h6 class="blue">
@@ -850,10 +860,11 @@
 		</a>
 	</var>
 	<address>
-		<a href="mailto:detour@usa.com">
-			detour@usa.com
-		</a>
-		Design Concept &copy; MMXIV
+		<p class="media">
+			<a class="print" onclick="print()">Print</a>
+			<a class="screen" onclick="screen()">Screen</a>
+		</p>
+		<a href="mailto:detour@usa.com">detour@usa.com</a> &copy; MMXIV
 	</address>
 </body>
 </html>
