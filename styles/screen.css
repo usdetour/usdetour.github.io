@@ -18,7 +18,7 @@ address {
 }
 
 address a {
-	border-bottom: none;
+	border-bottom: solid 1px #fff;
 	color: inherit;
 }
 
@@ -43,14 +43,13 @@ h2 a, h3 a, h4, h5, h6, p {
 }
 
 h1 {
-	background: #444; padding-top: 20px;
-	vertical-align: middle; font-family: georgia, serif; font-size: 1.1em; color: #fff;
+	padding-top: 20px; vertical-align: middle; background: #444;
+	font-family: georgia, serif; font-size: 1.1em; color: #fff;
 }
 
 h1 p {
-	padding-bottom: 20px;
-	font-size: .8em;
-	vertical-align: middle; font-family: georgia, serif; color: #fff;
+	padding-bottom: 20px; vertical-align: middle;
+	font-family: georgia, serif; font-size: .8em; color: #fff;
 }
 
 h2 {
@@ -133,22 +132,14 @@ p.size, p.color, p.model {
 */
 
 h6 code {
-	display: block; width: 50%; margin-top: 5px; margin-left: auto; margin-right: auto; padding: 4px;
+	display: block; width: 60%; margin-top: 5px; margin-left: auto; margin-right: auto; padding: 4px;
 	border: solid 1px #E4DDBE; border-radius: 16px;
-	text-align: center;
-	font-family: monaco, consolas, monospace; font-style: normal; font-size: .8em; color: #A49F87;
+	text-align: center; font-family: monaco, consolas, monospace; font-style: normal; font-size: .8em; color: #A49F87;
 }
 
 h6 code:before {
-	content: "Model "
+	content: "The "
 }
-
-/*
-h6 summary {
-	margin: 4px;
-	cursor: pointer;
-}
-*/
 
 h5 a:visited, h6 a:visited, p a:visited {
 	color: #78497C;
@@ -197,6 +188,12 @@ p.origin strong a {
 	color: #7E7A68;
 }
 
+p.origin strong:hover {
+	background: #7E7A68;
+	color: #fff;
+	cursor: pointer;
+}
+
 p.discovered {
 	display: none;
 	margin-top: 15px;
@@ -205,7 +202,8 @@ p.discovered {
 
 p.media a {
 	display: inline;
-	color: #fff;
+	border-bottom: solid 1px #fff;
+	color: inherit;
 	cursor: pointer;
 }
 

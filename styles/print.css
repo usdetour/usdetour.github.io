@@ -8,6 +8,10 @@ address {
 	border-top: solid 3px #444;
 }
 
+address a {
+	border-bottom: solid 1px #444;
+}
+
 body {
 	font-family: georgia, times, serif; color: #444;
 }
@@ -85,7 +89,7 @@ p.media a.print {
 }
 
 p.media a.screen {
-	text-decoration: underline;
+	border-bottom: solid 1px #444;
 	cursor: pointer;
 }
 
