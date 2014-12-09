@@ -138,7 +138,7 @@ h6 code {
 }
 
 h6 code:before {
-	content: "The "
+	content: "Model #"
 }
 
 h5 a:visited, h6 a:visited, p a:visited {
