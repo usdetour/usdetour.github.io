@@ -23,7 +23,8 @@ USDetour.parse = function() {
 	var current = {
 		department: null,
 		aisle: null,
-		product: null
+		product: null,
+		option: null
 	}
 	for (var i=0, l=elts.length; i<l; i++) {
 		var elt = elts[i]
@@ -58,13 +59,50 @@ USDetour.parse = function() {
 			USDetour.products[current.product].producer = USDetour.getElementId(elt)
 		}
 		else if (elt.tagName == 'P') {
-			// TODO
+			if (elt.className == 'description') {
+				USDetour.products[current.product].description = elt.innerText.substr(0, elt.innerText.length-1).trim().split('. ')
+			}
+			else if (elt.className == 'origin') {
+				var local = null
+				if (elt.children[0].children[0]) {
+					var local = elt.children[0].children[0].title.split(',')[0]
+				}
+				USDetour.products[current.product].origin = {
+					state: elt.innerText.split("Made in ")[1],
+					local: local
+				}
+			}
+			else if (elt.className == 'discovered') {
+				var url = elt.children[0].href.split('/')
+				var date = elt.innerText.split("in ")[1]
+				USDetour.products[current.product].discovered = {
+					person: elt.children[0].innerText,
+					address: url[url.length-1],
+					date: date.substr(0, date.indexOf('.') > -1? date.indexOf('.') : date.indexOf('?'))
+				}
+			}
 		}
 		else if (elt.tagName == 'H6') {
-			// TODO
+			current.option = {
+				id: elt.id,
+				color: elt.className,
+				title: elt.children[0].innerText,
+				subtitle: elt.children[1].innerText,
+				model: elt.children[2].innerText,
+				media: [],
+				merchants: []
+			}
+		}
+		else if (elt.tagName == 'IMG') {
+			var url = elt.src.split('/')
+			current.option.media.push(url[url.length-1])
 		}
 		else if (elt.tagName == 'VAR') {
-			// TODO
+			var merchant = {}
+		}
+		else if (elt.tagname == 'HR') {
+			USDetour.products[current.product].options.push(current.option)
+			current.product = null
 		}
 	}
 }
