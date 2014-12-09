@@ -27,6 +27,6 @@
 .gold { border-color: darkgoldenrod; }
 .brown { border-color: saddlebrown; }
 
-.homedepot { background: #fe6a00; }
-.knifecenter { background: #f15a2b; }
-.casa { background: #84a5ae; }
+.homedepot img { background: #fe6a00; }
+.knifecenter img { background: #f15a2b; }
+.casa img{ background: #84a5ae; }
