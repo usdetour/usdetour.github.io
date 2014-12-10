@@ -195,7 +195,7 @@ USDetour.render = function() {
 		"Louisiana": "LA",
 		"Maine": "ME",
 		"Massachusetts": "MA",
-		"New York", "NY",
+		"New York": "NY",
 		"North Carolina": "NC",
 		"Ohio": "OH",
 		"Pennsylvania": "PA",
