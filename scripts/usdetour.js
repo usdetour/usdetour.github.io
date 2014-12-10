@@ -122,19 +122,70 @@ USDetour.scrape = function() {
 	}
 }
 
-USDetour.show = function(x) {
-	USDetour.scrape()
-	return JSON.stringify(USDetour[x], null, 2)
+USDetour.view = {}
+
+USDetour.view.list = function() {
+	document.styleSheets[1].disabled = true
+	document.styleSheets[2].media.deleteMedium('list')
+	window.scrollTo(0, 0)
 }
 
-USDetour.count = function(x) {
+USDetour.view.catalog = function() {
+	document.styleSheets[1].disabled = false
+	document.styleSheets[2].media.appendMedium('list')
+	window.scrollTo(0, 0)
+}
+
+USDetour.view.data = function() {
 	USDetour.scrape()
-	return Object.keys(USDetour[x]).length
+	document.body.innerHTML = '<pre>' + JSON.stringify(USDetour.products, null, 2) + '</pre>'
+}
+
+USDetour.create = {}
+
+USDetour.create.department = function(department, departments) {
+	departments.push(department.id)
+	var h2 = document.createElement('h2')
+	h2.id = department.id
+	var a = document.createElement('a')
+	a.href = 'contents.html#' + department.id
+	a.innerText = department.name
+	h2.appendChild(a)
+}
+
+USDetour.create.aisle = function() {
+
 }
 
 USDetour.render = function() {
+	USDetour.scrape()
+	var departments = []
+	var aisles = []
+	var doc = document.createElement('div')
+	// TODO h1 (title)
 	for (var i=0, l=USDetour.products.length; i<l; i++) {
 		var product = USDetour.products[i]
+		if (departments.indexOf(product.department.id) == -1) {
+			departments.push(product.department.id)
+			var h2 = document.createElement('h2')
+			h2.id = product.department.id
+			var a = document.createElement('a')
+			a.href = 'contents.html#' + product.department.id
+			a.innerText = product.department.name
+			h2.appendChild(a)
+			doc.appendChild(h2)
+		}
 		// TODO
+		// h3 (aisle)
+		// h4 (product)
+		// h5 (producer)
+		// p.description
+		// p.origin
+		// p.discovered
+		// h6 (option)
+		// img
+		// var
+		// hr
 	}
+	document.body.innerHTML = doc.innerHTML
 }
