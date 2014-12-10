@@ -73,11 +73,11 @@ USDetour.scrape = function() {
 			}
 			else if (elt.className == 'discovered') {
 				var url = elt.children[0].href.split('/')
-				var date = elt.innerText.split("in ")[1]
+				var when = elt.innerText.split("in ")[1]
 				current.product.discovered = {
-					person: elt.children[0].innerText,
-					address: url[url.length-1],
-					date: date.substr(0, date.indexOf('.') > -1? date.indexOf('.') : date.indexOf('?'))
+					who: elt.children[0].innerText,
+					url: url[url.length-1],
+					when: when.substr(0, when.indexOf('.') > -1? when.indexOf('.') : when.indexOf('?'))
 				}
 			}
 		}
@@ -94,31 +94,38 @@ USDetour.scrape = function() {
 		}
 		else if (elt.tagName == 'IMG') {
 			var url = elt.src.split('/')
-			url = url[url.length-1]
-			current.option.media.push(url)
+			current.option.media.push(url.slice(url.length-3).join('/'))
 		}
 		else if (elt.tagName == 'VAR') {
 			for (var j=0, len=elt.children.length; j<len; j++) {
 				var merchant = { id: '', name: '', url: '', price: 0, logo: null }
-				if (elt.children[j].children[1]) {
+				merchant.url = elt.children[j].href
+				if (elt.children[j].className != 'direct') {
 					merchant.id = elt.children[j].className
-					merchant.name = elt.children[j].children[1].children[0].alt
-					var logoUrl = elt.children[j].children[1].children[0].src.split('/')
-					logoUrl = logoUrl[logoUrl.length-1]
-					merchant.logo = logoUrl
+					var info = elt.children[j].children[elt.children[j].children.length-1]
+					merchant.name = info.children[0].alt
+					var logoUrl = info.children[0].src.split('/')
+					merchant.logo = logoUrl.slice(logoUrl.length-3).join('/')
+					var price = elt.children[j].innerText.substr(1).split(" via")[0]
 				}
 				else {
 					merchant.id = current.product.producer.id
 					merchant.name = current.product.producer.name
+					var price = elt.children[j].innerText.substr(1)
 				}
-				merchant.url = elt.children[j].href
-				merchant.price = elt.children[j].innerText.substr(1).split(" via")[0].split('.').join('') * 1
+				if (price.indexOf('.') > -1) {
+					merchant.price = price.split('.').join('') * 1
+				}
+				else {
+					merchant.price = price * 100
+				}
 				current.option.merchants.push(merchant)
 			}
-		}
-		else if (elt.tagName == 'HR') {
 			current.product.options.push(current.option)
 		}
+		// else if (elt.tagName == 'HR' && current.option) {
+		// 	current.product.options.push(current.option)
+		// }
 	}
 }
 
@@ -141,33 +148,16 @@ USDetour.view.data = function() {
 	document.body.innerHTML = '<pre>' + JSON.stringify(USDetour.products, null, 2) + '</pre>'
 }
 
-USDetour.create = {}
-
-USDetour.create.department = function(department, departments) {
-	departments.push(department.id)
-	var h2 = document.createElement('h2')
-	h2.id = department.id
-	var a = document.createElement('a')
-	a.href = 'contents.html#' + department.id
-	a.innerText = department.name
-	h2.appendChild(a)
-}
-
-USDetour.create.aisle = function() {
-
-}
-
 USDetour.render = function() {
 
-	function createTitle() {
+	function header() {
 		var a = document.createElement('a')
 		var h1 = document.createElement('h1')
 		var img = document.createElement('img')
 		img.src = 'logo.png'
 		img.alt = "U.S. Detour"
 		h1.appendChild(img)
-		h1.innerHTML += "&nbsp;"
-		h1.innerHTML += "U.S. Detour"
+		h1.innerHTML += " U.S. Detour"
 		var p = document.createElement('p')
 		p.innerHTML = "America&rsquo;s Best Stuff"
 		h1.appendChild(p)
@@ -175,16 +165,56 @@ USDetour.render = function() {
 		return a
 	}
 
+	function footer() {
+		var address = document.createElement('address')
+		var p = document.createElement('p')
+		p.className = 'media'
+		var list = document.createElement('a')
+		list.className = 'list'
+		list.setAttribute('onclick', 'USDetour.view.list()')
+		list.innerHTML = "List View"
+		p.appendChild(list)
+		var catalog = document.createElement('a')
+		catalog.className = 'catalog'
+		catalog.setAttribute('onclick', 'USDetour.view.catalog()')
+		catalog.innerHTML = "Catalog View"
+		p.appendChild(catalog)
+		address.appendChild(p)
+		var a = document.createElement('a')
+		a.href = 'mailto:detour@usa.com'
+		a.innerHTML = "detour@usa.com"
+		address.appendChild(a)
+		address.innerHTML += " &copy; MMXIV"
+	}
+
+	var states = {
+		"Colorado": "CO",
+		"Florida": "FL",
+		"Georgia": "GA",
+		"Illinois": "IL",
+		"Louisiana": "LA",
+		"Maine": "ME",
+		"Massachusetts": "MA",
+		"New York", "NY",
+		"North Carolina": "NC",
+		"Ohio": "OH",
+		"Pennsylvania": "PA",
+		"Tennessee": "TN",
+		"Texas": "TX",
+		"Vermont": "VT",
+		"Wisconsin": "WI"
+	}
+
 	USDetour.scrape()
 	var departments = []
 	var aisles = []
-	var doc = document.createElement('div')
-	doc.appendChild(createTitle())
+	var page = document.createElement('div')
+	page.appendChild(pageTitle())
 
 	for (var i=0, l=USDetour.products.length; i<l; i++) {
 		var product = USDetour.products[i]
 
-		// Departments
+		// Department
 		if (departments.indexOf(product.department.id) == -1) {
 			departments.push(product.department.id)
 			var h2 = document.createElement('h2')
@@ -193,20 +223,28 @@ USDetour.render = function() {
 			a.href = 'contents.html#' + product.department.id
 			a.innerText = product.department.name
 			h2.appendChild(a)
-			doc.appendChild(h2)
+			page.appendChild(h2)
+
+			// Aisle
+			// TODO Allow dup aisle names in diff depts
+			if (product.aisle && aisles.indexOf(product.aisle.id) == -1) {
+				aisles.push(product.aisle.id)
+				var h3 = document.createElement('h3')
+				h3.id = product.aisle.id
+				var a = document.createElement('a')
+				a.href = 'contents.html#' + product.aisle.id
+				a.innerText = product.aisle.name
+				h3.appendChild(a)
+				page.appendChild(h3)
+			}
+
 		}
 
-		// Aisles
-		// TODO Allow dup aisle names in diff depts
-		if (product.aisle && aisles.indexOf(product.aisle.id) == -1) {
-			aisles.push(product.aisle.id)
-			var h3 = document.createElement('h3')
-			h3.id = product.aisle.id
-			var a = document.createElement('a')
-			a.href = 'contents.html#' + product.aisle.id
-			a.innerText = product.aisle.name
-			h3.appendChild(a)
-			doc.appendChild(h3)
+		// Divider
+		else {
+			var hr = document.createElement('hr')
+			hr.className = 'divider'
+			page.appendChild(hr)
 		}
 
 		// Product
@@ -216,7 +254,7 @@ USDetour.render = function() {
 		a.href = 'contents.html#' + product.id
 		a.innerHTML = product.name
 		h4.appendChild(a)
-		doc.appendChild(h4)
+		page.appendChild(h4)
 
 		// Producer
 		var h5 = document.createElement('h5')
@@ -224,21 +262,131 @@ USDetour.render = function() {
 		var a = document.createElement('a')
 		a.href = product.producer.url // TODO 'producers.html#' + product.producer.id
 		a.innerHTML = product.producer.name
+		h5.innerHTML = "by "
 		h5.appendChild(a)
-		doc.appendChild(h5)
+		page.appendChild(h5)
 
-		// TODO
 		// Description
+		var p = document.createElement('p')
+		p.className = 'description'
+		p.innerHTML = product.description.join(" ")
+		page.appendChild(p)
+
 		// Origin
+		var p = document.createElement('p')
+		p.className = 'origin'
+		var strong = document.createElement('strong')
+		strong.innerHTML = "Made in "
+		if (product.origin.local) {
+			var span = document.createElement('span')
+			span.title = product.origin.local // TODO Lookup state abbr
+			span.innerHTML = product.origin.state
+			strong.appendChild(span)
+		}
+		else {
+			strong.innerHTML += product.origin.state
+		}
+		p.appendChild(strong)
+		page.appendChild(p)
+
 		// Discovered
+		var p = document.createElement('p')
+		p.className = 'discovered'
+		p.innerHTML = "Discovered by "
+		var a = document.createElement('a')
+		a.href = product.discovered.url
+		a.innerHTML = product.discovered.who
+		p.appendChild(a)
+		p.innerHTML += [" in ", product.discovered.when, "."].join('')
+		page.appendChild(p)
+
+		var hr = document.createElement('hr')
+		page.appendChild(hr)
+
 		// Options
-			// ...
+		for (var j=0, len=product.options.length; j<len; j++) {
+
+			var option = product.options[j]
+
+			if (j) {
+				var hr = document.createElement('hr')
+				page.appendChild(hr)
+			}
+
+			// Details
+			var h6 = document.createElement('h6')
+			h6.id = option.id
+			h6.className = option.color
+			var title = document.createElement('a')
+			// title.href = 'contents.html#' + option.id
+			title.innerHTML = option.title
+			h6.appendChild(title)
+			var subtitle = document.createElement('em')
+			subtitle.innerHTML = option.subtitle
+			h6.appendChild(subtitle)
+			if (option.model) {
+				var model = document.createElement('code')
+				model.innerHTML = option.model
+				h6.appendChild(model)
+			}
+			page.appendChild(h6)
+
 			// Image
+			var img = document.createElement('img')
+			img.src = option.media[0] // TODO Support multiple media
+			img.alt = option.title
+			page.appendChild(img)
+
 			// Merchants
-		// Divider
+			var merchants = document.createElement('var')
+			for (var k=0, kl=option.merchants.length; k<kl; k++) {
+				var merchant = option.merchants[k]
+				var a = document.createElement('a')
+				a.href = merchant.url
+				var price = merchant.price + ""
+				var dollars = price.substr(0, price.length-2)
+				var cents = price.substr(price.length-2)
+				if (cents != "00") {
+					a.innerHTML = ["$", dollars, "<sup>.", cents, "</sup> "].join('')	
+				}
+				else {
+					a.innerHTML = "$" + dollars
+				}
+				if (merchant.logo) {
+					a.className = merchant.id
+					var strong = document.createElement('strong')
+					strong.innerHTML = "via " + merchant.name
+					var img = document.createElement('img')
+					img.src = merchant.logo
+					img.alt = merchant.name
+					strong.appendChild(img)
+					a.appendChild(strong)
+				}
+				else {
+					a.className = "direct"
+				}
+				merchants.appendChild(a)
+			}
+			page.appendChild(merchants)
+
+		}
 
 	}
 
-	document.body.innerHTML = doc.innerHTML
+	page.appendChild(footer())
 
+	document.body.innerHTML = page.innerHTML
+
+}
+
+USDetour.contents = function() {
+	// TODO
+}
+
+USDetour.states = function() {
+	// TODO
+}
+
+USDetour.producers = function() {
+	// TODO
 }
