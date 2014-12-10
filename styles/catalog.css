@@ -47,6 +47,10 @@ h1 {
 	font-family: georgia, serif; font-size: 1.1em; color: #fff;
 }
 
+h1 img {
+	display: inline; margin-bottom: 0px;
+}
+
 h1 p {
 	padding-bottom: 20px; vertical-align: middle;
 	font-family: georgia, serif; font-size: .8em; color: #fff;

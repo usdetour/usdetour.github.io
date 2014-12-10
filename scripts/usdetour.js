@@ -158,13 +158,33 @@ USDetour.create.aisle = function() {
 }
 
 USDetour.render = function() {
+
+	function createTitle() {
+		var a = document.createElement('a')
+		var h1 = document.createElement('h1')
+		var img = document.createElement('img')
+		img.src = 'logo.png'
+		img.alt = "U.S. Detour"
+		h1.appendChild(img)
+		h1.innerHTML += "&nbsp;"
+		h1.innerHTML += "U.S. Detour"
+		var p = document.createElement('p')
+		p.innerHTML = "America&rsquo;s Best Stuff"
+		h1.appendChild(p)
+		a.appendChild(h1)
+		return a
+	}
+
 	USDetour.scrape()
 	var departments = []
 	var aisles = []
 	var doc = document.createElement('div')
-	// TODO h1 (title)
+	doc.appendChild(createTitle())
+
 	for (var i=0, l=USDetour.products.length; i<l; i++) {
 		var product = USDetour.products[i]
+
+		// Departments
 		if (departments.indexOf(product.department.id) == -1) {
 			departments.push(product.department.id)
 			var h2 = document.createElement('h2')
@@ -175,17 +195,50 @@ USDetour.render = function() {
 			h2.appendChild(a)
 			doc.appendChild(h2)
 		}
+
+		// Aisles
+		// TODO Allow dup aisle names in diff depts
+		if (product.aisle && aisles.indexOf(product.aisle.id) == -1) {
+			aisles.push(product.aisle.id)
+			var h3 = document.createElement('h3')
+			h3.id = product.aisle.id
+			var a = document.createElement('a')
+			a.href = 'contents.html#' + product.aisle.id
+			a.innerText = product.aisle.name
+			h3.appendChild(a)
+			doc.appendChild(h3)
+		}
+
+		// Product
+		var h4 = document.createElement('h4')
+		h4.id = product.id
+		var a = document.createElement('a')
+		a.href = 'contents.html#' + product.id
+		a.innerHTML = product.name
+		h4.appendChild(a)
+		doc.appendChild(h4)
+
+		// Producer
+		var h5 = document.createElement('h5')
+		h5.id = product.id
+		var a = document.createElement('a')
+		a.href = product.producer.url // TODO 'producers.html#' + product.producer.id
+		a.innerHTML = product.producer.name
+		h5.appendChild(a)
+		doc.appendChild(h5)
+
 		// TODO
-		// h3 (aisle)
-		// h4 (product)
-		// h5 (producer)
-		// p.description
-		// p.origin
-		// p.discovered
-		// h6 (option)
-		// img
-		// var
-		// hr
+		// Description
+		// Origin
+		// Discovered
+		// Options
+			// ...
+			// Image
+			// Merchants
+		// Divider
+
 	}
+
 	document.body.innerHTML = doc.innerHTML
+
 }
