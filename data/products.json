@@ -1,0 +1,3563 @@
+[
+  {
+    "department": {
+      "id": "bed-and-bath",
+      "name": "Bed & Bath"
+    },
+    "aisle": null,
+    "id": "towels",
+    "name": "Towels",
+    "producer": {
+      "id": "1888-mills",
+      "name": "1888 Mills",
+      "url": "http://1888mills.com/about.html"
+    },
+    "description": [
+      "Oversized and heavy weight.",
+      "100% cotton."
+    ],
+    "origin": {
+      "state": "Georgia",
+      "local": "Griffin"
+    },
+    "discovered": {
+      "who": "Madalyn Terry",
+      "url": "about.html#madalyn",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "towels/bath",
+        "color": "gray",
+        "title": "Bath Towel",
+        "subtitle": "Stone Gray",
+        "model": "BX04928STON",
+        "media": [
+          "resources/1888-mills/BX04930STON.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B002BDU7BG",
+            "price": 2999,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "casa",
+            "name": "Casa.com",
+            "url": "http://casa.com/p/1888-mills-oversized-organic-cotton-towel-collection-320643",
+            "price": 2999,
+            "logo": "resources/casa/favicon.ico"
+          }
+        ]
+      },
+      {
+        "id": "towels/hand",
+        "color": "gray",
+        "title": "Hand Towel",
+        "subtitle": "Stone Gray",
+        "model": "HX04932STON",
+        "media": [
+          "resources/1888-mills/HX04934STON.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B002BDU7KW",
+            "price": 2391,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      },
+      {
+        "id": "towels/wash",
+        "color": "gray",
+        "title": "Washcloth",
+        "subtitle": "Stone Gray",
+        "model": "WX04936STON",
+        "media": [
+          "resources/1888-mills/WX04938STON.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0002U34EW",
+            "price": 1999,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "bed-and-bath",
+      "name": "Bed & Bath"
+    },
+    "aisle": null,
+    "id": "soaps",
+    "name": "Soaps",
+    "producer": {
+      "id": "common-good",
+      "name": "Common Good",
+      "url": "http://www.commongoodandco.com/pages/about-us"
+    },
+    "description": [
+      "Lavender scent.",
+      "Plant-based, biodegradable formula.",
+      "Refillable, American-made glass bottle."
+    ],
+    "origin": {
+      "state": "Massachusetts & Vermont",
+      "local": null
+    },
+    "discovered": {
+      "who": "Madalyn Terry",
+      "url": "about.html#madalyn",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "soaps/hand",
+        "color": "gray",
+        "title": "Hand Soap",
+        "subtitle": "16 fl. oz.",
+        "model": "",
+        "media": [
+          "resources/common-good/hand-soap.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "common-good",
+            "name": "Common Good",
+            "url": "http://commongoodandco.com/collections/all/products/hand-soap-16oz-glass-bottle",
+            "price": 2400,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "soaps/dish",
+        "color": "gray",
+        "title": "Dish Soap",
+        "subtitle": "16 fl. oz.",
+        "model": "",
+        "media": [
+          "resources/common-good/dish-soap.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "common-good",
+            "name": "Common Good",
+            "url": "http://commongoodandco.com/collections/all/products/dish-soap-16oz-glass-bottle",
+            "price": 2400,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "soaps/spray",
+        "color": "gray",
+        "title": "All Purpose Spray",
+        "subtitle": "16 fl. oz.",
+        "model": "",
+        "media": [
+          "resources/common-good/all-purpose-spray.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "common-good",
+            "name": "Common Good",
+            "url": "http://commongoodandco.com/collections/all/products/all-purpose-16oz-glass-bottle",
+            "price": 2400,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "soaps/laundry",
+        "color": "gray",
+        "title": "Laundry Detergent",
+        "subtitle": "32 fl. oz.",
+        "model": "",
+        "media": [
+          "resources/common-good/laundry-detergent.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "common-good",
+            "name": "Common Good",
+            "url": "http://www.commongoodandco.com/collections/all/products/laundry-detergent-32oz-glass-bottle",
+            "price": 3199,
+            "logo": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "dining",
+      "name": "Dining"
+    },
+    "id": "beverage-glasses",
+    "name": "Drinking Glasses",
+    "producer": {
+      "id": "libbey",
+      "name": "Libbey",
+      "url": "http://corporate.libbey.com/History"
+    },
+    "description": [
+      "Clear & durable."
+    ],
+    "origin": {
+      "state": "Ohio & Louisiana",
+      "local": "Toledo"
+    },
+    "discovered": {
+      "who": "Mark Terry",
+      "url": "about.html#mark",
+      "when": "2013"
+    },
+    "options": [
+      {
+        "id": "beverage-glasses/cooler",
+        "color": "peach",
+        "title": "Cooler",
+        "subtitle": "Set of 4; 15&frac12; fl. oz.",
+        "model": "3100924936 2369",
+        "media": [
+          "resources/libbey/cooler.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Cooler2",
+            "price": 999,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/juice",
+        "color": "orange",
+        "title": "Juice",
+        "subtitle": "Set of 4; 5&frac12; fl. oz.",
+        "model": "3100924934 149",
+        "media": [
+          "resources/libbey/juice.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Juice-Glasses2",
+            "price": 799,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/soda",
+        "color": "teal",
+        "title": "Soda",
+        "subtitle": "Set of 6; 12 fl. oz.",
+        "model": "3100946033 5110S6",
+        "media": [
+          "resources/libbey/soda.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Classic-Soda",
+            "price": 1799,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses",
+        "color": "amber",
+        "title": "Pilsner",
+        "subtitle": "Set of 4; 16 fl. oz.",
+        "model": "3100940766 1604S4",
+        "media": [
+          "resources/libbey/pilsner.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Pilsner-Glasses",
+            "price": 1499,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/mug",
+        "color": "brown",
+        "title": "Mug",
+        "subtitle": "Set of 4; 16 fl. oz.",
+        "model": "3100927956 89587",
+        "media": [
+          "resources/libbey/mug.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Heidelberg-Mug",
+            "price": 1499,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/trumpet-flute",
+        "color": "lightyellow",
+        "title": "Trumpet Flute",
+        "subtitle": "Set of 6; 6&frac12; fl. oz.",
+        "model": "3100927416 89554",
+        "media": [
+          "resources/libbey/trumpet-flute.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Trumpet-Flute",
+            "price": 1999,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/white-wine",
+        "color": "lightyellow",
+        "title": "White Wine",
+        "subtitle": "Set of 4; 14 fl. oz.",
+        "model": "3100929355 3011S4B",
+        "media": [
+          "resources/libbey/white-wine.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/White-Wine3",
+            "price": 1299,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/red-wine",
+        "color": "maroon",
+        "title": "Red Wine",
+        "subtitle": "Set of 6; 18¼ fl. oz.",
+        "model": "3100926439 89389",
+        "media": [
+          "resources/libbey/red-wine.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Red-Wine-Stemware",
+            "price": 1999,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/martini",
+        "color": "olive",
+        "title": "Cocktail",
+        "subtitle": "Set of 4; 10 fl. oz.",
+        "model": "3100940178 80454",
+        "media": [
+          "resources/libbey/cocktail.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Martini-Stemware3",
+            "price": 1499,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/rocks",
+        "color": "lime",
+        "title": "Rocks",
+        "subtitle": "Set of 4; 11 fl. oz.",
+        "model": "3100924935 917CD",
+        "media": [
+          "resources/libbey/rocks.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Rocks",
+            "price": 999,
+            "logo": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "ice-cream-scoop",
+    "name": "Ice Cream Scoop",
+    "producer": {
+      "id": "zeroll",
+      "name": "Zeroll",
+      "url": "http://zeroll.com/aboutus.php"
+    },
+    "description": [
+      "Classic design.",
+      "Heat conductive handle.",
+      "Aluminum and plastic."
+    ],
+    "origin": {
+      "state": "Florida",
+      "local": "Fort Pierce"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the winter of 2010"
+    },
+    "options": [
+      {
+        "id": "ice-cream-scoop/mid-size",
+        "color": "gold",
+        "title": "Mid-Size",
+        "subtitle": "2 fl. oz. (40 portions per gallon)",
+        "model": "1020",
+        "media": [
+          "resources/zeroll/1020.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "zeroll",
+            "name": "Zeroll",
+            "url": "http://zeroll.com/store.php?productID=15",
+            "price": 1815,
+            "logo": null
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0002U34EW",
+            "price": 1815,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "blenders",
+    "name": "Blender",
+    "producer": {
+      "id": "vitamix",
+      "name": "Vitamix",
+      "url": "https://vitamix.com/Corporate-Information/About-Us"
+    },
+    "description": [
+      "Vented lid.",
+      "BPA-free container.",
+      "2 horsepower motor.",
+      "Copolyster and stainless steel."
+    ],
+    "origin": {
+      "state": "Ohio",
+      "local": "Cleveland"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the summer of 2007"
+    },
+    "options": [
+      {
+        "id": "blenders/cia-professional",
+        "color": "silver",
+        "title": "CIA Professional",
+        "subtitle": "Brushed Stainless",
+        "model": "1709",
+        "media": [
+          "resources/vitamix/1709.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B002KAPEPE",
+            "price": 49895,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "measuring-cups",
+    "name": "Glass Measuring Cups",
+    "producer": {
+      "id": "pyrex",
+      "name": "Pyrex",
+      "url": "http://www.worldkitchen.com/en/media/content_landing/pyrex-our-story.html"
+    },
+    "description": [
+      "Non-porous and see-through.",
+      "Pre-heated oven, microwave, fridge, freezer, and dishwasher safe.",
+      "Glass."
+    ],
+    "origin": {
+      "state": "Pennsylvania",
+      "local": "Charleroi"
+    },
+    "discovered": {
+      "who": "Frances Terry",
+      "url": "about.html#frances",
+      "when": "the summer of 2012"
+    },
+    "options": [
+      {
+        "id": "measuring-cups/set",
+        "color": "silver",
+        "title": "Set of 3",
+        "subtitle": "1, 2, and 4 cup",
+        "model": "1118990",
+        "media": [
+          "resources/pyrex/1118990.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B00M2J7PCI",
+            "price": 1699,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "measuring-cups-plastic",
+    "name": "Plastic Measuring Cups",
+    "producer": {
+      "id": "preserve",
+      "name": "Preserve",
+      "url": "https://www.preserveproducts.com/explore/preserve-101/founding-story"
+    },
+    "description": [
+      "Snap-together design.",
+      "BPA free.",
+      "Dishwasher safe.",
+      "100% recyclable, 100% recycled #5 plastic."
+    ],
+    "origin": {
+      "state": "the U.S.",
+      "local": ""
+    },
+    "discovered": {
+      "who": "Madalyn Terry",
+      "url": "about.html#madalyn",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "measuring-cups-plastic/set",
+        "color": "lime",
+        "title": "Set of 4",
+        "subtitle": "&frac14;, &frac13;, &frac12;, and 1 cup",
+        "model": "",
+        "media": [
+          "resources/preserve/dry-measuring-cups.png"
+        ],
+        "merchants": [
+          {
+            "id": "preserve",
+            "name": "Preserve",
+            "url": "https://www.preserveproducts.com/products/15/measuring-cups-set-of-4",
+            "price": 800,
+            "logo": null
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B001R4BOE4",
+            "price": 800,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "soft-spatula",
+    "name": "Soft Spatula",
+    "producer": {
+      "id": "vollrath",
+      "name": "Vollrath",
+      "url": "http://vollrath.com/Vollrath/About-Us/Heritage.htm"
+    },
+    "description": [
+      "Heat resistant to 500°.",
+      "Stain and odor resistant.",
+      "Dishwasher safe.",
+      "Silicone and nylon."
+    ],
+    "origin": {
+      "state": "Wisconsin",
+      "local": "Sheboygan"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the summer of 2010"
+    },
+    "options": [
+      {
+        "id": "soft-spatula/mid-size",
+        "color": "maroon",
+        "title": "Mid-Size",
+        "subtitle": "13&frac12;''",
+        "model": "52023",
+        "media": [
+          "resources/vollrath/52023.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0001MSE5U",
+            "price": 1548,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "skillet",
+    "name": "Skillet",
+    "producer": {
+      "id": "lodge",
+      "name": "Lodge",
+      "url": "http://lodgemfg.com/aboutus"
+    },
+    "description": [
+      "Saute, sear, fry, bake, and stir fry.",
+      "For any stove, oven, grill, or campfire.",
+      "Pre-seasoned and ready-to-use.",
+      "Cast iron."
+    ],
+    "origin": {
+      "state": "Tennessee",
+      "local": "South Pittsburg"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "skillet/mid-size",
+        "color": "black",
+        "title": "Mid-Size",
+        "subtitle": "9''",
+        "model": "L6SK3",
+        "media": [
+          "resources/lodge/l6sk3.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "lodge",
+            "name": "Lodge",
+            "url": "http://amazon.com/dp/B0063RWTS",
+            "price": 2200,
+            "logo": null
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0063RWTS",
+            "price": 2369,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "casa",
+            "name": "Casa.com",
+            "url": "http://casa.com/p/lodge-pre-seasoned-cast-iron-skillet-229263",
+            "price": 1699,
+            "logo": "resources/casa/favicon.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "furniture-and-flooring",
+      "name": "Furniture & Flooring"
+    },
+    "aisle": null,
+    "id": "wood-cleaner",
+    "name": "Wood Cleaner",
+    "producer": {
+      "id": "scott's-liquid-gold",
+      "name": "Scott's Liquid Gold",
+      "url": "http://scottsliquidgold.com/scotts-liquid-gold/about.html"
+    },
+    "description": [
+      "Restore and enhance color, grain, and luster.",
+      "Original almond scent."
+    ],
+    "origin": {
+      "state": "Colorado",
+      "local": "Denver"
+    },
+    "discovered": {
+      "who": "Madalyn Terry",
+      "url": "about.html#madalyn",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "wood-cleaner/pourable",
+        "color": "black",
+        "title": "Pourable",
+        "subtitle": "14 fl. oz.",
+        "model": "10018",
+        "media": [
+          "resources/scotts-liquid-gold/10018.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "scott's-liquid-gold",
+            "name": "Scott's Liquid Gold",
+            "url": "http://www.scottsliquidgold.com/product-details.aspx?iid=169",
+            "price": 675,
+            "logo": null
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B000X9WZMO",
+            "price": 551,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "outdoors",
+      "name": "Outdoors"
+    },
+    "aisle": null,
+    "id": "hatchet",
+    "name": "Hatchet",
+    "producer": {
+      "id": "estwing",
+      "name": "Estwing",
+      "url": "http://estwing.com/about_us.php"
+    },
+    "description": [
+      "Forged in one piece.",
+      "Sheath included.",
+      "Steel and leather."
+    ],
+    "origin": {
+      "state": "Illinois",
+      "local": "Rockford"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "2013"
+    },
+    "options": [
+      {
+        "id": "hatchet/sportsman",
+        "color": "brown",
+        "title": "Sportsman",
+        "subtitle": "14''",
+        "model": "E24A",
+        "media": [
+          "resources/estwing/e24a-homedepot.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0002JT0BO",
+            "price": 3497,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "homedepot",
+            "name": "The Home Depot",
+            "url": "http://www.homedepot.com/p/Estwing-Sportsman-s-14-in-Axe-with-Leather-Grip-Handle-E24A/100351736",
+            "price": 3497,
+            "logo": "resources/homedepot/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "outdoors",
+      "name": "Outdoors"
+    },
+    "aisle": null,
+    "id": "canoes",
+    "name": "Canoe",
+    "producer": {
+      "id": "old-town-canoe",
+      "name": "Old Town Canoe",
+      "url": "http://oldtowncanoe.com/craftsmanship/heritage"
+    },
+    "description": [
+      "Lightweight and durable.",
+      "Seats and carrying handles.",
+      "Polyethylene, vinyl, nylon, and ash."
+    ],
+    "origin": {
+      "state": "Maine",
+      "local": "Old Town"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2007"
+    },
+    "options": [
+      {
+        "id": "canoes/discovery",
+        "color": "darkgreen",
+        "title": "Discovery",
+        "subtitle": "15' 8''",
+        "model": "",
+        "media": [
+          "resources/old-town/discovery-158-green.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B00HLNW6GA",
+            "price": 83435,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "outdoors",
+      "name": "Outdoors"
+    },
+    "aisle": null,
+    "id": "fixed-blade-knives",
+    "name": "Fixed Blade Knife",
+    "producer": {
+      "id": "ka-bar",
+      "name": "KA-BAR",
+      "url": "http://kabar.com/history"
+    },
+    "description": [
+      "Sheath included.",
+      "Steel and leather or copolymers."
+    ],
+    "origin": {
+      "state": "New York",
+      "local": "Olean"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "fixed-blade-knives/partially-serated",
+        "color": "black",
+        "title": "Partially Serated",
+        "subtitle": "7''; Kraton G handle",
+        "model": "KA1214",
+        "media": [
+          "resources/ka-bar/ka1212.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B000BSZDP8",
+            "price": 5456,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "knifecenter",
+            "name": "KnifeCenter",
+            "url": "http://www.knifecenter.com/item/KA1214/KA-BAR-1214-Full-Size-Fighting-Knife-7-inch-Black-Combo-Blade-Kraton-G-Handle-Kydex-Sheath",
+            "price": 7295,
+            "logo": "resources/knifecenter/favicon.ico"
+          }
+        ]
+      },
+      {
+        "id": "fixed-blade-knives/straight-edge",
+        "color": "brown",
+        "title": "Straight Edge",
+        "subtitle": "7''; USMC",
+        "model": "KA1217",
+        "media": [
+          "resources/ka-bar/ka1217.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B001H53Q6M",
+            "price": 6712,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "knifecenter",
+            "name": "KnifeCenter.com",
+            "url": "http://www2.knifecenter.com/item/KA1217/KA-BAR-1217-Full-Size-USMC-Fighting-Knife-7-inch-Plain-Blade-Leather-Handles-Leather-Sheath",
+            "price": 7295,
+            "logo": "resources/knifecenter/favicon.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "tools",
+      "name": "Tools"
+    },
+    "aisle": {
+      "id": "carpentry",
+      "name": "Carpentry"
+    },
+    "id": "hammers",
+    "name": "Hammer",
+    "producer": {
+      "id": "vaughan",
+      "name": "Vaughan",
+      "url": "http://vaughanmfg.com/pages/what-makes-vaughan-manufacturing-special"
+    },
+    "description": [
+      "Polished and buffed head, blue stained handle.",
+      "Magnetic nail holding slot.",
+      "Steel and hickory."
+    ],
+    "origin": {
+      "state": "Illinois",
+      "local": "Bushnell"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "hammers/framing",
+        "color": "blue",
+        "title": "Framing Hammer",
+        "subtitle": "19 oz.",
+        "model": "CFB2HCM",
+        "media": [
+          "resources/vaughan/cfb2hcm-acehardware.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "acehardware",
+            "name": "Ace Hardware",
+            "url": "http://acehardware.com/product/index.jsp?productId=1340744",
+            "price": 3399,
+            "logo": "resources/acehardware/logo.ico"
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B00004Z2Y0",
+            "price": 2448,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "tools",
+      "name": "Tools"
+    },
+    "aisle": {
+      "id": "carpentry",
+      "name": "Carpentry"
+    },
+    "id": "chisels",
+    "name": "Chisels",
+    "producer": {
+      "id": "dewalt",
+      "name": "DeWalt",
+      "url": "http://dewalt.com/Company-Information.aspx#tabs-3"
+    },
+    "description": [
+      "Tempered and lacquered blade.",
+      "Hardened strike cap.",
+      "Ergonomic handle.",
+      "Chrome carbon steel and bi-material."
+    ],
+    "origin": {
+      "state": "North Carolina",
+      "local": "Charlotte"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "chisels/wood",
+        "color": "black",
+        "title": "Wood Chisels",
+        "subtitle": "Set of 4",
+        "model": "16063",
+        "media": [
+          "resources/dewalt/wood-chisels.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "",
+            "name": "Amazon.com",
+            "url": "https://amazon.com/dp/B006E3L51K",
+            "price": 3365,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "tools",
+      "name": "Tools"
+    },
+    "aisle": {
+      "id": "electrical",
+      "name": "Electrical"
+    },
+    "id": "pliers",
+    "name": "Pliers",
+    "producer": {
+      "id": "klein-tools",
+      "name": "Klein Tools",
+      "url": "http://www.kleintools.com/content/history"
+    },
+    "description": [
+      "Side-cutting.",
+      "High leverage.",
+      "9'' New England nose.",
+      "Steel and plastic."
+    ],
+    "origin": {
+      "state": "Texas",
+      "local": "Mansfield"
+    },
+    "discovered": {
+      "who": "Frances Terry",
+      "url": "about.html#frances",
+      "when": "the 1960s"
+    },
+    "options": [
+      {
+        "id": "pliers/standard",
+        "color": "blue",
+        "title": "Standard",
+        "subtitle": "",
+        "model": "D213-9NE",
+        "media": [
+          "resources/klein/d213-9ne.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0000302W6",
+            "price": 2800,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      },
+      {
+        "id": "pliers/fish-tape-pulling",
+        "color": "blue",
+        "title": "Fish Tape Pulling",
+        "subtitle": "",
+        "model": "D213-9NETP",
+        "media": [
+          "resources/klein/d213-9netp.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B000BOA2GC",
+            "price": 3246,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      },
+      {
+        "id": "pliers/crimping",
+        "color": "yellow",
+        "title": "Crimping",
+        "subtitle": "",
+        "model": "D213-9NE-CR",
+        "media": [
+          "resources/klein/d213-9ne-cr.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B000CEMSLS",
+            "price": 3872,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      },
+      {
+        "id": "pliers/crimping-and-insulated",
+        "color": "orange",
+        "title": "Crimping & Insulated",
+        "subtitle": "",
+        "model": "D213-9NE-CR-INS",
+        "media": [
+          "resources/klein/d213-9ne-cr-ins.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0002RI9KY",
+            "price": 6666,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "bed-and-bath",
+      "name": "Bed & Bath"
+    },
+    "aisle": null,
+    "id": "towels",
+    "name": "Towels",
+    "producer": {
+      "id": "1888-mills",
+      "name": "1888 Mills",
+      "url": "http://1888mills.com/about.html"
+    },
+    "description": [
+      "Oversized and heavy weight.",
+      "100% cotton."
+    ],
+    "origin": {
+      "state": "Georgia",
+      "local": "Griffin"
+    },
+    "discovered": {
+      "who": "Madalyn Terry",
+      "url": "about.html#madalyn",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "towels/bath",
+        "color": "gray",
+        "title": "Bath Towel",
+        "subtitle": "Stone Gray",
+        "model": "BX04928STON",
+        "media": [
+          "resources/1888-mills/BX04930STON.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B002BDU7BG",
+            "price": 2999,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "casa",
+            "name": "Casa.com",
+            "url": "http://casa.com/p/1888-mills-oversized-organic-cotton-towel-collection-320643",
+            "price": 2999,
+            "logo": "resources/casa/favicon.ico"
+          }
+        ]
+      },
+      {
+        "id": "towels/hand",
+        "color": "gray",
+        "title": "Hand Towel",
+        "subtitle": "Stone Gray",
+        "model": "HX04932STON",
+        "media": [
+          "resources/1888-mills/HX04934STON.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B002BDU7KW",
+            "price": 2391,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      },
+      {
+        "id": "towels/wash",
+        "color": "gray",
+        "title": "Washcloth",
+        "subtitle": "Stone Gray",
+        "model": "WX04936STON",
+        "media": [
+          "resources/1888-mills/WX04938STON.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0002U34EW",
+            "price": 1999,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "bed-and-bath",
+      "name": "Bed & Bath"
+    },
+    "aisle": null,
+    "id": "soaps",
+    "name": "Soaps",
+    "producer": {
+      "id": "common-good",
+      "name": "Common Good",
+      "url": "http://www.commongoodandco.com/pages/about-us"
+    },
+    "description": [
+      "Lavender scent.",
+      "Plant-based, biodegradable formula.",
+      "Refillable, American-made glass bottle."
+    ],
+    "origin": {
+      "state": "Massachusetts & Vermont",
+      "local": null
+    },
+    "discovered": {
+      "who": "Madalyn Terry",
+      "url": "about.html#madalyn",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "soaps/hand",
+        "color": "gray",
+        "title": "Hand Soap",
+        "subtitle": "16 fl. oz.",
+        "model": "",
+        "media": [
+          "resources/common-good/hand-soap.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "common-good",
+            "name": "Common Good",
+            "url": "http://commongoodandco.com/collections/all/products/hand-soap-16oz-glass-bottle",
+            "price": 2400,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "soaps/dish",
+        "color": "gray",
+        "title": "Dish Soap",
+        "subtitle": "16 fl. oz.",
+        "model": "",
+        "media": [
+          "resources/common-good/dish-soap.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "common-good",
+            "name": "Common Good",
+            "url": "http://commongoodandco.com/collections/all/products/dish-soap-16oz-glass-bottle",
+            "price": 2400,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "soaps/spray",
+        "color": "gray",
+        "title": "All Purpose Spray",
+        "subtitle": "16 fl. oz.",
+        "model": "",
+        "media": [
+          "resources/common-good/all-purpose-spray.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "common-good",
+            "name": "Common Good",
+            "url": "http://commongoodandco.com/collections/all/products/all-purpose-16oz-glass-bottle",
+            "price": 2400,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "soaps/laundry",
+        "color": "gray",
+        "title": "Laundry Detergent",
+        "subtitle": "32 fl. oz.",
+        "model": "",
+        "media": [
+          "resources/common-good/laundry-detergent.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "common-good",
+            "name": "Common Good",
+            "url": "http://www.commongoodandco.com/collections/all/products/laundry-detergent-32oz-glass-bottle",
+            "price": 3199,
+            "logo": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "dining",
+      "name": "Dining"
+    },
+    "id": "beverage-glasses",
+    "name": "Beverage Glasses",
+    "producer": {
+      "id": "libbey",
+      "name": "Libbey",
+      "url": "http://corporate.libbey.com/History"
+    },
+    "description": [
+      "Clear & durable."
+    ],
+    "origin": {
+      "state": "Ohio & Louisiana",
+      "local": "Toledo"
+    },
+    "discovered": {
+      "who": "Mark Terry",
+      "url": "about.html#mark",
+      "when": "2013"
+    },
+    "options": [
+      {
+        "id": "beverage-glasses/cooler",
+        "color": "peach",
+        "title": "Cooler",
+        "subtitle": "Set of 4; 15&frac12; fl. oz.",
+        "model": "3100924936 2369",
+        "media": [
+          "resources/libbey/cooler.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Cooler2",
+            "price": 999,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/juice",
+        "color": "orange",
+        "title": "Juice",
+        "subtitle": "Set of 4; 5&frac12; fl. oz.",
+        "model": "3100924934 149",
+        "media": [
+          "resources/libbey/juice.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Juice-Glasses2",
+            "price": 799,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/soda",
+        "color": "teal",
+        "title": "Soda",
+        "subtitle": "Set of 6; 12 fl. oz.",
+        "model": "3100946033 5110S6",
+        "media": [
+          "resources/libbey/soda.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Classic-Soda",
+            "price": 1799,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses",
+        "color": "amber",
+        "title": "Pilsner",
+        "subtitle": "Set of 4; 16 fl. oz.",
+        "model": "3100940766 1604S4",
+        "media": [
+          "resources/libbey/pilsner.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Pilsner-Glasses",
+            "price": 1499,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/mug",
+        "color": "brown",
+        "title": "Mug",
+        "subtitle": "Set of 4; 16 fl. oz.",
+        "model": "3100927956 89587",
+        "media": [
+          "resources/libbey/mug.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Heidelberg-Mug",
+            "price": 1499,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/trumpet-flute",
+        "color": "lightyellow",
+        "title": "Trumpet Flute",
+        "subtitle": "Set of 6; 6&frac12; fl. oz.",
+        "model": "3100927416 89554",
+        "media": [
+          "resources/libbey/trumpet-flute.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Trumpet-Flute",
+            "price": 1999,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/white-wine",
+        "color": "lightyellow",
+        "title": "White Wine",
+        "subtitle": "Set of 4; 14 fl. oz.",
+        "model": "3100929355 3011S4B",
+        "media": [
+          "resources/libbey/white-wine.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/White-Wine3",
+            "price": 1299,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/red-wine",
+        "color": "maroon",
+        "title": "Red Wine",
+        "subtitle": "Set of 6; 18¼ fl. oz.",
+        "model": "3100926439 89389",
+        "media": [
+          "resources/libbey/red-wine.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Red-Wine-Stemware",
+            "price": 1999,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/martini",
+        "color": "olive",
+        "title": "Cocktail",
+        "subtitle": "Set of 4; 10 fl. oz.",
+        "model": "3100940178 80454",
+        "media": [
+          "resources/libbey/cocktail.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Martini-Stemware3",
+            "price": 1499,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/rocks",
+        "color": "lime",
+        "title": "Rocks",
+        "subtitle": "Set of 4; 11 fl. oz.",
+        "model": "3100924935 917CD",
+        "media": [
+          "resources/libbey/rocks.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Rocks",
+            "price": 999,
+            "logo": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "ice-cream-scoop",
+    "name": "Ice Cream Scoop",
+    "producer": {
+      "id": "zeroll",
+      "name": "Zeroll",
+      "url": "http://zeroll.com/aboutus.php"
+    },
+    "description": [
+      "Classic design.",
+      "Heat conductive handle.",
+      "Aluminum and plastic."
+    ],
+    "origin": {
+      "state": "Florida",
+      "local": "Fort Pierce"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the winter of 2010"
+    },
+    "options": [
+      {
+        "id": "ice-cream-scoop/mid-size",
+        "color": "gold",
+        "title": "Mid-Size",
+        "subtitle": "2 fl. oz. (40 portions per gallon)",
+        "model": "1020",
+        "media": [
+          "resources/zeroll/1020.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "zeroll",
+            "name": "Zeroll",
+            "url": "http://zeroll.com/store.php?productID=15",
+            "price": 1815,
+            "logo": null
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0002U34EW",
+            "price": 1815,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "blenders",
+    "name": "Blender",
+    "producer": {
+      "id": "vitamix",
+      "name": "Vitamix",
+      "url": "https://vitamix.com/Corporate-Information/About-Us"
+    },
+    "description": [
+      "Vented lid.",
+      "BPA-free container.",
+      "2 horsepower motor.",
+      "Copolyster and stainless steel."
+    ],
+    "origin": {
+      "state": "Ohio",
+      "local": "Cleveland"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the summer of 2007"
+    },
+    "options": [
+      {
+        "id": "blenders/cia-professional",
+        "color": "silver",
+        "title": "CIA Professional",
+        "subtitle": "Brushed Stainless",
+        "model": "1709",
+        "media": [
+          "resources/vitamix/1709.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B002KAPEPE",
+            "price": 49895,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "measuring-cups",
+    "name": "Measuring Cups",
+    "producer": {
+      "id": "pyrex",
+      "name": "Pyrex",
+      "url": "http://www.worldkitchen.com/en/media/content_landing/pyrex-our-story.html"
+    },
+    "description": [
+      "Non-porous and see-through.",
+      "Pre-heated oven, microwave, fridge, freezer, and dishwasher safe.",
+      "Glass."
+    ],
+    "origin": {
+      "state": "Pennsylvania",
+      "local": "Charleroi"
+    },
+    "discovered": {
+      "who": "Frances Terry",
+      "url": "about.html#frances",
+      "when": "the summer of 2012"
+    },
+    "options": [
+      {
+        "id": "measuring-cups/set",
+        "color": "silver",
+        "title": "Set of 3",
+        "subtitle": "1, 2, and 4 cup",
+        "model": "1118990",
+        "media": [
+          "resources/pyrex/1118990.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B00M2J7PCI",
+            "price": 1699,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "soft-spatula",
+    "name": "Soft Spatula",
+    "producer": {
+      "id": "vollrath",
+      "name": "Vollrath",
+      "url": "http://vollrath.com/Vollrath/About-Us/Heritage.htm"
+    },
+    "description": [
+      "Heat resistant to 500°.",
+      "Stain and odor resistant.",
+      "Dishwasher safe.",
+      "Silicone and nylon."
+    ],
+    "origin": {
+      "state": "Wisconsin",
+      "local": "Sheboygan"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the summer of 2010"
+    },
+    "options": [
+      {
+        "id": "soft-spatula/mid-size",
+        "color": "maroon",
+        "title": "Mid-Size",
+        "subtitle": "13&frac12;''",
+        "model": "52023",
+        "media": [
+          "resources/vollrath/52023.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0001MSE5U",
+            "price": 1548,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "skillet",
+    "name": "Skillet",
+    "producer": {
+      "id": "lodge",
+      "name": "Lodge",
+      "url": "http://lodgemfg.com/aboutus"
+    },
+    "description": [
+      "Saute, sear, fry, bake, and stir fry.",
+      "For any stove, oven, grill, or campfire.",
+      "Pre-seasoned and ready-to-use.",
+      "Cast iron."
+    ],
+    "origin": {
+      "state": "Tennessee",
+      "local": "South Pittsburg"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "skillet/mid-size",
+        "color": "black",
+        "title": "Mid-Size",
+        "subtitle": "9''",
+        "model": "L6SK3",
+        "media": [
+          "resources/lodge/l6sk3.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "lodge",
+            "name": "Lodge",
+            "url": "http://amazon.com/dp/B0063RWTS",
+            "price": 2200,
+            "logo": null
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0063RWTS",
+            "price": 2369,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "casa",
+            "name": "Casa.com",
+            "url": "http://casa.com/p/lodge-pre-seasoned-cast-iron-skillet-229263",
+            "price": 1699,
+            "logo": "resources/casa/favicon.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "furniture-and-flooring",
+      "name": "Furniture & Flooring"
+    },
+    "aisle": null,
+    "id": "wood-cleaner",
+    "name": "Wood Cleaner",
+    "producer": {
+      "id": "scott's-liquid-gold",
+      "name": "Scott's Liquid Gold",
+      "url": "http://scottsliquidgold.com/scotts-liquid-gold/about.html"
+    },
+    "description": [
+      "Restore and enhance color, grain, and luster.",
+      "Original almond scent."
+    ],
+    "origin": {
+      "state": "Colorado",
+      "local": "Denver"
+    },
+    "discovered": {
+      "who": "Madalyn Terry",
+      "url": "about.html#madalyn",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "wood-cleaner/pourable",
+        "color": "black",
+        "title": "Pourable",
+        "subtitle": "14 fl. oz.",
+        "model": "10018",
+        "media": [
+          "resources/scotts-liquid-gold/10018.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "scott's-liquid-gold",
+            "name": "Scott's Liquid Gold",
+            "url": "http://www.scottsliquidgold.com/product-details.aspx?iid=169",
+            "price": 675,
+            "logo": null
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B000X9WZMO",
+            "price": 551,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "outdoors",
+      "name": "Outdoors"
+    },
+    "aisle": null,
+    "id": "hatchet",
+    "name": "Hatchet",
+    "producer": {
+      "id": "estwing",
+      "name": "Estwing",
+      "url": "http://estwing.com/about_us.php"
+    },
+    "description": [
+      "Forged in one piece.",
+      "Sheath included.",
+      "Steel and leather."
+    ],
+    "origin": {
+      "state": "Illinois",
+      "local": "Rockford"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "2013"
+    },
+    "options": [
+      {
+        "id": "hatchet/sportsman",
+        "color": "brown",
+        "title": "Sportsman",
+        "subtitle": "14''",
+        "model": "E24A",
+        "media": [
+          "resources/estwing/e24a-homedepot.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0002JT0BO",
+            "price": 3497,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "homedepot",
+            "name": "The Home Depot",
+            "url": "http://www.homedepot.com/p/Estwing-Sportsman-s-14-in-Axe-with-Leather-Grip-Handle-E24A/100351736",
+            "price": 3497,
+            "logo": "resources/homedepot/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "outdoors",
+      "name": "Outdoors"
+    },
+    "aisle": null,
+    "id": "canoes",
+    "name": "Canoe",
+    "producer": {
+      "id": "old-town-canoe",
+      "name": "Old Town Canoe",
+      "url": "http://oldtowncanoe.com/craftsmanship/heritage"
+    },
+    "description": [
+      "Lightweight and durable.",
+      "Seats and carrying handles.",
+      "Polyethylene, vinyl, nylon, and ash."
+    ],
+    "origin": {
+      "state": "Maine",
+      "local": "Old Town"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2007"
+    },
+    "options": [
+      {
+        "id": "canoes/discovery",
+        "color": "darkgreen",
+        "title": "Discovery",
+        "subtitle": "15' 8''",
+        "model": "",
+        "media": [
+          "resources/old-town/discovery-158-green.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B00HLNW6GA",
+            "price": 83435,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "outdoors",
+      "name": "Outdoors"
+    },
+    "aisle": null,
+    "id": "fixed-blade-knives",
+    "name": "Fixed Blade Knife",
+    "producer": {
+      "id": "ka-bar",
+      "name": "KA-BAR",
+      "url": "http://kabar.com/history"
+    },
+    "description": [
+      "Sheath included.",
+      "Steel and leather or copolymers."
+    ],
+    "origin": {
+      "state": "New York",
+      "local": "Olean"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "fixed-blade-knives/partially-serated",
+        "color": "black",
+        "title": "Partially Serated",
+        "subtitle": "7''; Kraton G handle",
+        "model": "KA1214",
+        "media": [
+          "resources/ka-bar/ka1212.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B000BSZDP8",
+            "price": 5456,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "knifecenter",
+            "name": "KnifeCenter",
+            "url": "http://www.knifecenter.com/item/KA1214/KA-BAR-1214-Full-Size-Fighting-Knife-7-inch-Black-Combo-Blade-Kraton-G-Handle-Kydex-Sheath",
+            "price": 7295,
+            "logo": "resources/knifecenter/favicon.ico"
+          }
+        ]
+      },
+      {
+        "id": "fixed-blade-knives/straight-edge",
+        "color": "brown",
+        "title": "Straight Edge",
+        "subtitle": "7''; USMC",
+        "model": "KA1217",
+        "media": [
+          "resources/ka-bar/ka1217.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B001H53Q6M",
+            "price": 6712,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "knifecenter",
+            "name": "KnifeCenter.com",
+            "url": "http://www2.knifecenter.com/item/KA1217/KA-BAR-1217-Full-Size-USMC-Fighting-Knife-7-inch-Plain-Blade-Leather-Handles-Leather-Sheath",
+            "price": 7295,
+            "logo": "resources/knifecenter/favicon.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "tools",
+      "name": "Tools"
+    },
+    "aisle": {
+      "id": "carpentry",
+      "name": "Carpentry"
+    },
+    "id": "hammers",
+    "name": "Hammer",
+    "producer": {
+      "id": "vaughan",
+      "name": "Vaughan",
+      "url": "http://vaughanmfg.com/pages/what-makes-vaughan-manufacturing-special"
+    },
+    "description": [
+      "Polished and buffed head, blue stained handle.",
+      "Magnetic nail holding slot.",
+      "Steel and hickory."
+    ],
+    "origin": {
+      "state": "Illinois",
+      "local": "Bushnell"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "hammers/framing",
+        "color": "blue",
+        "title": "Framing Hammer",
+        "subtitle": "19 oz.",
+        "model": "CFB2HCM",
+        "media": [
+          "resources/vaughan/cfb2hcm-acehardware.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "acehardware",
+            "name": "Ace Hardware",
+            "url": "http://acehardware.com/product/index.jsp?productId=1340744",
+            "price": 3399,
+            "logo": "resources/acehardware/logo.ico"
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B00004Z2Y0",
+            "price": 2448,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "tools",
+      "name": "Tools"
+    },
+    "aisle": {
+      "id": "carpentry",
+      "name": "Carpentry"
+    },
+    "id": "chisels",
+    "name": "Chisels",
+    "producer": {
+      "id": "dewalt",
+      "name": "DeWalt",
+      "url": "http://dewalt.com/Company-Information.aspx#tabs-3"
+    },
+    "description": [
+      "Tempered and lacquered blade.",
+      "Hardened strike cap.",
+      "Ergonomic handle.",
+      "Chrome carbon steel and bi-material."
+    ],
+    "origin": {
+      "state": "North Carolina",
+      "local": "Charlotte"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "chisels/wood",
+        "color": "black",
+        "title": "Wood Chisels",
+        "subtitle": "Set of 4",
+        "model": "16063",
+        "media": [
+          "resources/dewalt/wood-chisels.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "",
+            "name": "Amazon.com",
+            "url": "https://amazon.com/dp/B006E3L51K",
+            "price": 3365,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "tools",
+      "name": "Tools"
+    },
+    "aisle": {
+      "id": "electrical",
+      "name": "Electrical"
+    },
+    "id": "pliers",
+    "name": "Pliers",
+    "producer": {
+      "id": "klein-tools",
+      "name": "Klein Tools",
+      "url": "http://www.kleintools.com/content/history"
+    },
+    "description": [
+      "Side-cutting.",
+      "High leverage.",
+      "9'' New England nose.",
+      "Steel and plastic."
+    ],
+    "origin": {
+      "state": "Texas",
+      "local": "Mansfield"
+    },
+    "discovered": {
+      "who": "Frances Terry",
+      "url": "about.html#frances",
+      "when": "the 1960s"
+    },
+    "options": [
+      {
+        "id": "pliers/standard",
+        "color": "blue",
+        "title": "Standard",
+        "subtitle": "",
+        "model": "D213-9NE",
+        "media": [
+          "resources/klein/d213-9ne.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0000302W6",
+            "price": 2800,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      },
+      {
+        "id": "pliers/fish-tape-pulling",
+        "color": "blue",
+        "title": "Fish Tape Pulling",
+        "subtitle": "",
+        "model": "D213-9NETP",
+        "media": [
+          "resources/klein/d213-9netp.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B000BOA2GC",
+            "price": 3246,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      },
+      {
+        "id": "pliers/crimping",
+        "color": "yellow",
+        "title": "Crimping",
+        "subtitle": "",
+        "model": "D213-9NE-CR",
+        "media": [
+          "resources/klein/d213-9ne-cr.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B000CEMSLS",
+            "price": 3872,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      },
+      {
+        "id": "pliers/crimping-and-insulated",
+        "color": "orange",
+        "title": "Crimping & Insulated",
+        "subtitle": "",
+        "model": "D213-9NE-CR-INS",
+        "media": [
+          "resources/klein/d213-9ne-cr-ins.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0002RI9KY",
+            "price": 6666,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "bed-and-bath",
+      "name": "Bed & Bath"
+    },
+    "aisle": null,
+    "id": "towels",
+    "name": "Towels",
+    "producer": {
+      "id": "1888-mills",
+      "name": "1888 Mills",
+      "url": "http://1888mills.com/about.html"
+    },
+    "description": [
+      "Oversized and heavy weight.",
+      "100% cotton."
+    ],
+    "origin": {
+      "state": "Georgia",
+      "local": "Griffin"
+    },
+    "discovered": {
+      "who": "Madalyn Terry",
+      "url": "about.html#madalyn",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "towels/bath",
+        "color": "gray",
+        "title": "Bath Towel",
+        "subtitle": "Stone Gray",
+        "model": "BX04928STON",
+        "media": [
+          "resources/1888-mills/BX04930STON.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B002BDU7BG",
+            "price": 2999,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "casa",
+            "name": "Casa.com",
+            "url": "http://casa.com/p/1888-mills-oversized-organic-cotton-towel-collection-320643",
+            "price": 2999,
+            "logo": "resources/casa/favicon.ico"
+          }
+        ]
+      },
+      {
+        "id": "towels/hand",
+        "color": "gray",
+        "title": "Hand Towel",
+        "subtitle": "Stone Gray",
+        "model": "HX04932STON",
+        "media": [
+          "resources/1888-mills/HX04934STON.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B002BDU7KW",
+            "price": 2391,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      },
+      {
+        "id": "towels/wash",
+        "color": "gray",
+        "title": "Washcloth",
+        "subtitle": "Stone Gray",
+        "model": "WX04936STON",
+        "media": [
+          "resources/1888-mills/WX04938STON.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0002U34EW",
+            "price": 1999,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "bed-and-bath",
+      "name": "Bed & Bath"
+    },
+    "aisle": null,
+    "id": "soaps",
+    "name": "Soaps",
+    "producer": {
+      "id": "common-good",
+      "name": "Common Good",
+      "url": "http://www.commongoodandco.com/pages/about-us"
+    },
+    "description": [
+      "Lavender scent.",
+      "Plant-based, biodegradable formula.",
+      "Refillable, American-made glass bottle."
+    ],
+    "origin": {
+      "state": "Massachusetts & Vermont",
+      "local": null
+    },
+    "discovered": {
+      "who": "Madalyn Terry",
+      "url": "about.html#madalyn",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "soaps/hand",
+        "color": "gray",
+        "title": "Hand Soap",
+        "subtitle": "16 fl. oz.",
+        "model": "",
+        "media": [
+          "resources/common-good/hand-soap.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "common-good",
+            "name": "Common Good",
+            "url": "http://commongoodandco.com/collections/all/products/hand-soap-16oz-glass-bottle",
+            "price": 2400,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "soaps/dish",
+        "color": "gray",
+        "title": "Dish Soap",
+        "subtitle": "16 fl. oz.",
+        "model": "",
+        "media": [
+          "resources/common-good/dish-soap.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "common-good",
+            "name": "Common Good",
+            "url": "http://commongoodandco.com/collections/all/products/dish-soap-16oz-glass-bottle",
+            "price": 2400,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "soaps/spray",
+        "color": "gray",
+        "title": "All Purpose Spray",
+        "subtitle": "16 fl. oz.",
+        "model": "",
+        "media": [
+          "resources/common-good/all-purpose-spray.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "common-good",
+            "name": "Common Good",
+            "url": "http://commongoodandco.com/collections/all/products/all-purpose-16oz-glass-bottle",
+            "price": 2400,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "soaps/laundry",
+        "color": "gray",
+        "title": "Laundry Detergent",
+        "subtitle": "32 fl. oz.",
+        "model": "",
+        "media": [
+          "resources/common-good/laundry-detergent.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "common-good",
+            "name": "Common Good",
+            "url": "http://www.commongoodandco.com/collections/all/products/laundry-detergent-32oz-glass-bottle",
+            "price": 3199,
+            "logo": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "dining",
+      "name": "Dining"
+    },
+    "id": "beverage-glasses",
+    "name": "Beverage Glasses",
+    "producer": {
+      "id": "libbey",
+      "name": "Libbey",
+      "url": "http://corporate.libbey.com/History"
+    },
+    "description": [
+      "Clear & durable."
+    ],
+    "origin": {
+      "state": "Ohio & Louisiana",
+      "local": "Toledo"
+    },
+    "discovered": {
+      "who": "Mark Terry",
+      "url": "about.html#mark",
+      "when": "2013"
+    },
+    "options": [
+      {
+        "id": "beverage-glasses/cooler",
+        "color": "peach",
+        "title": "Cooler",
+        "subtitle": "Set of 4; 15&frac12; fl. oz.",
+        "model": "3100924936 2369",
+        "media": [
+          "resources/libbey/cooler.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Cooler2",
+            "price": 999,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/juice",
+        "color": "orange",
+        "title": "Juice",
+        "subtitle": "Set of 4; 5&frac12; fl. oz.",
+        "model": "3100924934 149",
+        "media": [
+          "resources/libbey/juice.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Juice-Glasses2",
+            "price": 799,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/soda",
+        "color": "teal",
+        "title": "Soda",
+        "subtitle": "Set of 6; 12 fl. oz.",
+        "model": "3100946033 5110S6",
+        "media": [
+          "resources/libbey/soda.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Classic-Soda",
+            "price": 1799,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses",
+        "color": "amber",
+        "title": "Pilsner",
+        "subtitle": "Set of 4; 16 fl. oz.",
+        "model": "3100940766 1604S4",
+        "media": [
+          "resources/libbey/pilsner.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Pilsner-Glasses",
+            "price": 1499,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/mug",
+        "color": "brown",
+        "title": "Mug",
+        "subtitle": "Set of 4; 16 fl. oz.",
+        "model": "3100927956 89587",
+        "media": [
+          "resources/libbey/mug.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Heidelberg-Mug",
+            "price": 1499,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/trumpet-flute",
+        "color": "lightyellow",
+        "title": "Trumpet Flute",
+        "subtitle": "Set of 6; 6&frac12; fl. oz.",
+        "model": "3100927416 89554",
+        "media": [
+          "resources/libbey/trumpet-flute.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Trumpet-Flute",
+            "price": 1999,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/white-wine",
+        "color": "lightyellow",
+        "title": "White Wine",
+        "subtitle": "Set of 4; 14 fl. oz.",
+        "model": "3100929355 3011S4B",
+        "media": [
+          "resources/libbey/white-wine.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/White-Wine3",
+            "price": 1299,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/red-wine",
+        "color": "maroon",
+        "title": "Red Wine",
+        "subtitle": "Set of 6; 18¼ fl. oz.",
+        "model": "3100926439 89389",
+        "media": [
+          "resources/libbey/red-wine.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Red-Wine-Stemware",
+            "price": 1999,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/martini",
+        "color": "olive",
+        "title": "Cocktail",
+        "subtitle": "Set of 4; 10 fl. oz.",
+        "model": "3100940178 80454",
+        "media": [
+          "resources/libbey/cocktail.png"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Martini-Stemware3",
+            "price": 1499,
+            "logo": null
+          }
+        ]
+      },
+      {
+        "id": "beverage-glasses/rocks",
+        "color": "lime",
+        "title": "Rocks",
+        "subtitle": "Set of 4; 11 fl. oz.",
+        "model": "3100924935 917CD",
+        "media": [
+          "resources/libbey/rocks.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "libbey",
+            "name": "Libbey",
+            "url": "https://retail.libbey.com/Product-Repository/Rocks",
+            "price": 999,
+            "logo": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "ice-cream-scoop",
+    "name": "Ice Cream Scoop",
+    "producer": {
+      "id": "zeroll",
+      "name": "Zeroll",
+      "url": "http://zeroll.com/aboutus.php"
+    },
+    "description": [
+      "Classic design.",
+      "Heat conductive handle.",
+      "Aluminum and plastic."
+    ],
+    "origin": {
+      "state": "Florida",
+      "local": "Fort Pierce"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the winter of 2010"
+    },
+    "options": [
+      {
+        "id": "ice-cream-scoop/mid-size",
+        "color": "gold",
+        "title": "Mid-Size",
+        "subtitle": "2 fl. oz. (40 portions per gallon)",
+        "model": "1020",
+        "media": [
+          "resources/zeroll/1020.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "zeroll",
+            "name": "Zeroll",
+            "url": "http://zeroll.com/store.php?productID=15",
+            "price": 1815,
+            "logo": null
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0002U34EW",
+            "price": 1815,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "blenders",
+    "name": "Blender",
+    "producer": {
+      "id": "vitamix",
+      "name": "Vitamix",
+      "url": "https://vitamix.com/Corporate-Information/About-Us"
+    },
+    "description": [
+      "Vented lid.",
+      "BPA-free container.",
+      "2 horsepower motor.",
+      "Copolyster and stainless steel."
+    ],
+    "origin": {
+      "state": "Ohio",
+      "local": "Cleveland"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the summer of 2007"
+    },
+    "options": [
+      {
+        "id": "blenders/cia-professional",
+        "color": "silver",
+        "title": "CIA Professional",
+        "subtitle": "Brushed Stainless",
+        "model": "1709",
+        "media": [
+          "resources/vitamix/1709.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B002KAPEPE",
+            "price": 49895,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "measuring-cups",
+    "name": "Measuring Cups",
+    "producer": {
+      "id": "pyrex",
+      "name": "Pyrex",
+      "url": "http://www.worldkitchen.com/en/media/content_landing/pyrex-our-story.html"
+    },
+    "description": [
+      "Non-porous and see-through.",
+      "Pre-heated oven, microwave, fridge, freezer, and dishwasher safe.",
+      "Glass."
+    ],
+    "origin": {
+      "state": "Pennsylvania",
+      "local": "Charleroi"
+    },
+    "discovered": {
+      "who": "Frances Terry",
+      "url": "about.html#frances",
+      "when": "the summer of 2012"
+    },
+    "options": [
+      {
+        "id": "measuring-cups/set",
+        "color": "silver",
+        "title": "Set of 3",
+        "subtitle": "1, 2, and 4 cup",
+        "model": "1118990",
+        "media": [
+          "resources/pyrex/1118990.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B00M2J7PCI",
+            "price": 1699,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "soft-spatula",
+    "name": "Soft Spatula",
+    "producer": {
+      "id": "vollrath",
+      "name": "Vollrath",
+      "url": "http://vollrath.com/Vollrath/About-Us/Heritage.htm"
+    },
+    "description": [
+      "Heat resistant to 500°.",
+      "Stain and odor resistant.",
+      "Dishwasher safe.",
+      "Silicone and nylon."
+    ],
+    "origin": {
+      "state": "Wisconsin",
+      "local": "Sheboygan"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the summer of 2010"
+    },
+    "options": [
+      {
+        "id": "soft-spatula/mid-size",
+        "color": "maroon",
+        "title": "Mid-Size",
+        "subtitle": "13&frac12;''",
+        "model": "52023",
+        "media": [
+          "resources/vollrath/52023.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0001MSE5U",
+            "price": 1548,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "culinary",
+      "name": "Culinary"
+    },
+    "aisle": {
+      "id": "kitchen",
+      "name": "Kitchen"
+    },
+    "id": "skillet",
+    "name": "Skillet",
+    "producer": {
+      "id": "lodge",
+      "name": "Lodge",
+      "url": "http://lodgemfg.com/aboutus"
+    },
+    "description": [
+      "Saute, sear, fry, bake, and stir fry.",
+      "For any stove, oven, grill, or campfire.",
+      "Pre-seasoned and ready-to-use.",
+      "Cast iron."
+    ],
+    "origin": {
+      "state": "Tennessee",
+      "local": "South Pittsburg"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "skillet/mid-size",
+        "color": "black",
+        "title": "Mid-Size",
+        "subtitle": "9''",
+        "model": "L6SK3",
+        "media": [
+          "resources/lodge/l6sk3.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "lodge",
+            "name": "Lodge",
+            "url": "http://amazon.com/dp/B0063RWTS",
+            "price": 2200,
+            "logo": null
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0063RWTS",
+            "price": 2369,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "casa",
+            "name": "Casa.com",
+            "url": "http://casa.com/p/lodge-pre-seasoned-cast-iron-skillet-229263",
+            "price": 1699,
+            "logo": "resources/casa/favicon.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "furniture-and-flooring",
+      "name": "Furniture & Flooring"
+    },
+    "aisle": null,
+    "id": "wood-cleaner",
+    "name": "Wood Cleaner",
+    "producer": {
+      "id": "scott's-liquid-gold",
+      "name": "Scott's Liquid Gold",
+      "url": "http://scottsliquidgold.com/scotts-liquid-gold/about.html"
+    },
+    "description": [
+      "Restore and enhance color, grain, and luster.",
+      "Original almond scent."
+    ],
+    "origin": {
+      "state": "Colorado",
+      "local": "Denver"
+    },
+    "discovered": {
+      "who": "Madalyn Terry",
+      "url": "about.html#madalyn",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "wood-cleaner/pourable",
+        "color": "black",
+        "title": "Pourable",
+        "subtitle": "14 fl. oz.",
+        "model": "10018",
+        "media": [
+          "resources/scotts-liquid-gold/10018.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "scott's-liquid-gold",
+            "name": "Scott's Liquid Gold",
+            "url": "http://www.scottsliquidgold.com/product-details.aspx?iid=169",
+            "price": 675,
+            "logo": null
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B000X9WZMO",
+            "price": 551,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "outdoors",
+      "name": "Outdoors"
+    },
+    "aisle": null,
+    "id": "hatchet",
+    "name": "Hatchet",
+    "producer": {
+      "id": "estwing",
+      "name": "Estwing",
+      "url": "http://estwing.com/about_us.php"
+    },
+    "description": [
+      "Forged in one piece.",
+      "Sheath included.",
+      "Steel and leather."
+    ],
+    "origin": {
+      "state": "Illinois",
+      "local": "Rockford"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "2013"
+    },
+    "options": [
+      {
+        "id": "hatchet/sportsman",
+        "color": "brown",
+        "title": "Sportsman",
+        "subtitle": "14''",
+        "model": "E24A",
+        "media": [
+          "resources/estwing/e24a-homedepot.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0002JT0BO",
+            "price": 3497,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "homedepot",
+            "name": "The Home Depot",
+            "url": "http://www.homedepot.com/p/Estwing-Sportsman-s-14-in-Axe-with-Leather-Grip-Handle-E24A/100351736",
+            "price": 3497,
+            "logo": "resources/homedepot/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "outdoors",
+      "name": "Outdoors"
+    },
+    "aisle": null,
+    "id": "canoes",
+    "name": "Canoe",
+    "producer": {
+      "id": "old-town-canoe",
+      "name": "Old Town Canoe",
+      "url": "http://oldtowncanoe.com/craftsmanship/heritage"
+    },
+    "description": [
+      "Lightweight and durable.",
+      "Seats and carrying handles.",
+      "Polyethylene, vinyl, nylon, and ash."
+    ],
+    "origin": {
+      "state": "Maine",
+      "local": "Old Town"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2007"
+    },
+    "options": [
+      {
+        "id": "canoes/discovery",
+        "color": "darkgreen",
+        "title": "Discovery",
+        "subtitle": "15' 8''",
+        "model": "",
+        "media": [
+          "resources/old-town/discovery-158-green.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B00HLNW6GA",
+            "price": 83435,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "outdoors",
+      "name": "Outdoors"
+    },
+    "aisle": null,
+    "id": "fixed-blade-knives",
+    "name": "Fixed Blade Knife",
+    "producer": {
+      "id": "ka-bar",
+      "name": "KA-BAR",
+      "url": "http://kabar.com/history"
+    },
+    "description": [
+      "Sheath included.",
+      "Steel and leather or copolymers."
+    ],
+    "origin": {
+      "state": "New York",
+      "local": "Olean"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "fixed-blade-knives/partially-serated",
+        "color": "black",
+        "title": "Partially Serated",
+        "subtitle": "7''; Kraton G handle",
+        "model": "KA1214",
+        "media": [
+          "resources/ka-bar/ka1212.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B000BSZDP8",
+            "price": 5456,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "knifecenter",
+            "name": "KnifeCenter",
+            "url": "http://www.knifecenter.com/item/KA1214/KA-BAR-1214-Full-Size-Fighting-Knife-7-inch-Black-Combo-Blade-Kraton-G-Handle-Kydex-Sheath",
+            "price": 7295,
+            "logo": "resources/knifecenter/favicon.ico"
+          }
+        ]
+      },
+      {
+        "id": "fixed-blade-knives/straight-edge",
+        "color": "brown",
+        "title": "Straight Edge",
+        "subtitle": "7''; USMC",
+        "model": "KA1217",
+        "media": [
+          "resources/ka-bar/ka1217.png"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B001H53Q6M",
+            "price": 6712,
+            "logo": "resources/amazon/logo.ico"
+          },
+          {
+            "id": "knifecenter",
+            "name": "KnifeCenter.com",
+            "url": "http://www2.knifecenter.com/item/KA1217/KA-BAR-1217-Full-Size-USMC-Fighting-Knife-7-inch-Plain-Blade-Leather-Handles-Leather-Sheath",
+            "price": 7295,
+            "logo": "resources/knifecenter/favicon.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "tools",
+      "name": "Tools"
+    },
+    "aisle": {
+      "id": "carpentry",
+      "name": "Carpentry"
+    },
+    "id": "hammers",
+    "name": "Hammer",
+    "producer": {
+      "id": "vaughan",
+      "name": "Vaughan",
+      "url": "http://vaughanmfg.com/pages/what-makes-vaughan-manufacturing-special"
+    },
+    "description": [
+      "Polished and buffed head, blue stained handle.",
+      "Magnetic nail holding slot.",
+      "Steel and hickory."
+    ],
+    "origin": {
+      "state": "Illinois",
+      "local": "Bushnell"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "hammers/framing",
+        "color": "blue",
+        "title": "Framing Hammer",
+        "subtitle": "19 oz.",
+        "model": "CFB2HCM",
+        "media": [
+          "resources/vaughan/cfb2hcm-acehardware.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "acehardware",
+            "name": "Ace Hardware",
+            "url": "http://acehardware.com/product/index.jsp?productId=1340744",
+            "price": 3399,
+            "logo": "resources/acehardware/logo.ico"
+          },
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B00004Z2Y0",
+            "price": 2448,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "tools",
+      "name": "Tools"
+    },
+    "aisle": {
+      "id": "carpentry",
+      "name": "Carpentry"
+    },
+    "id": "chisels",
+    "name": "Chisels",
+    "producer": {
+      "id": "dewalt",
+      "name": "DeWalt",
+      "url": "http://dewalt.com/Company-Information.aspx#tabs-3"
+    },
+    "description": [
+      "Tempered and lacquered blade.",
+      "Hardened strike cap.",
+      "Ergonomic handle.",
+      "Chrome carbon steel and bi-material."
+    ],
+    "origin": {
+      "state": "North Carolina",
+      "local": "Charlotte"
+    },
+    "discovered": {
+      "who": "Max Terry",
+      "url": "about.html#max",
+      "when": "the fall of 2014"
+    },
+    "options": [
+      {
+        "id": "chisels/wood",
+        "color": "black",
+        "title": "Wood Chisels",
+        "subtitle": "Set of 4",
+        "model": "16063",
+        "media": [
+          "resources/dewalt/wood-chisels.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "",
+            "name": "Amazon.com",
+            "url": "https://amazon.com/dp/B006E3L51K",
+            "price": 3365,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": {
+      "id": "tools",
+      "name": "Tools"
+    },
+    "aisle": {
+      "id": "electrical",
+      "name": "Electrical"
+    },
+    "id": "pliers",
+    "name": "Pliers",
+    "producer": {
+      "id": "klein-tools",
+      "name": "Klein Tools",
+      "url": "http://www.kleintools.com/content/history"
+    },
+    "description": [
+      "Side-cutting.",
+      "High leverage.",
+      "9'' New England nose.",
+      "Steel and plastic."
+    ],
+    "origin": {
+      "state": "Texas",
+      "local": "Mansfield"
+    },
+    "discovered": {
+      "who": "Frances Terry",
+      "url": "about.html#frances",
+      "when": "the 1960s"
+    },
+    "options": [
+      {
+        "id": "pliers/standard",
+        "color": "blue",
+        "title": "Standard",
+        "subtitle": "",
+        "model": "D213-9NE",
+        "media": [
+          "resources/klein/d213-9ne.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0000302W6",
+            "price": 2800,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      },
+      {
+        "id": "pliers/fish-tape-pulling",
+        "color": "blue",
+        "title": "Fish Tape Pulling",
+        "subtitle": "",
+        "model": "D213-9NETP",
+        "media": [
+          "resources/klein/d213-9netp.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B000BOA2GC",
+            "price": 3246,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      },
+      {
+        "id": "pliers/crimping",
+        "color": "yellow",
+        "title": "Crimping",
+        "subtitle": "",
+        "model": "D213-9NE-CR",
+        "media": [
+          "resources/klein/d213-9ne-cr.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B000CEMSLS",
+            "price": 3872,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      },
+      {
+        "id": "pliers/crimping-and-insulated",
+        "color": "orange",
+        "title": "Crimping & Insulated",
+        "subtitle": "",
+        "model": "D213-9NE-CR-INS",
+        "media": [
+          "resources/klein/d213-9ne-cr-ins.jpg"
+        ],
+        "merchants": [
+          {
+            "id": "amazon",
+            "name": "Amazon.com",
+            "url": "http://amazon.com/dp/B0002RI9KY",
+            "price": 6666,
+            "logo": "resources/amazon/logo.ico"
+          }
+        ]
+      }
+    ]
+  }
+]

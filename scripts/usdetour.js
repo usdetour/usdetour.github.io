@@ -63,6 +63,7 @@ USDetour.scrape = function() {
 			}
 			else if (elt.className == 'origin') {
 				var local = null
+				// TODO Support multiple origins
 				if (elt.children[0].children[0]) {
 					var local = elt.children[0].children[0].title.split(',')[0]
 				}
@@ -87,7 +88,7 @@ USDetour.scrape = function() {
 				color: elt.className,
 				title: elt.children[0].innerText,
 				subtitle: elt.children[1].innerText,
-				model: elt.children[2].innerText,
+				model: elt.children.length > 2? elt.children[2].innerText : null,
 				media: [],
 				merchants: []
 			}
@@ -97,21 +98,21 @@ USDetour.scrape = function() {
 			current.option.media.push(url.slice(url.length-3).join('/'))
 		}
 		else if (elt.tagName == 'VAR') {
-			for (var j=0, len=elt.children.length; j<len; j++) {
+			for (var j=0, jl=elt.children.length; j<jl; j++) {
 				var merchant = { id: '', name: '', url: '', price: 0, logo: null }
 				merchant.url = elt.children[j].href
-				if (elt.children[j].className != 'direct') {
+				var price = elt.children[j].innerText.substr(1)
+				if (elt.children[j].className == 'direct') {
+					merchant.id = current.product.producer.id
+					merchant.name = current.product.producer.name
+				}
+				else {
 					merchant.id = elt.children[j].className
 					var info = elt.children[j].children[elt.children[j].children.length-1]
 					merchant.name = info.children[0].alt
 					var logoUrl = info.children[0].src.split('/')
 					merchant.logo = logoUrl.slice(logoUrl.length-3).join('/')
-					var price = elt.children[j].innerText.substr(1).split(" via")[0]
-				}
-				else {
-					merchant.id = current.product.producer.id
-					merchant.name = current.product.producer.name
-					var price = elt.children[j].innerText.substr(1)
+					price = price.split(" via")[0]
 				}
 				if (price.indexOf('.') > -1) {
 					merchant.price = price.split('.').join('') * 1
@@ -123,9 +124,6 @@ USDetour.scrape = function() {
 			}
 			current.product.options.push(current.option)
 		}
-		// else if (elt.tagName == 'HR' && current.option) {
-		// 	current.product.options.push(current.option)
-		// }
 	}
 }
 
@@ -148,10 +146,9 @@ USDetour.view.data = function() {
 	document.body.innerHTML = '<pre>' + JSON.stringify(USDetour.products, null, 2) + '</pre>'
 }
 
-USDetour.render = function() {
+USDetour.render = function(products, complete) {
 
 	function header() {
-		var a = document.createElement('a')
 		var h1 = document.createElement('h1')
 		var img = document.createElement('img')
 		img.src = 'logo.png'
@@ -161,6 +158,8 @@ USDetour.render = function() {
 		var p = document.createElement('p')
 		p.innerHTML = "America&rsquo;s Best Stuff"
 		h1.appendChild(p)
+		var a = document.createElement('a')
+		a.href = 'contents.html'
 		a.appendChild(h1)
 		return a
 	}
@@ -185,6 +184,7 @@ USDetour.render = function() {
 		a.innerHTML = "detour@usa.com"
 		address.appendChild(a)
 		address.innerHTML += " &copy; MMXIV"
+		return address
 	}
 
 	var states = {
@@ -205,14 +205,13 @@ USDetour.render = function() {
 		"Wisconsin": "WI"
 	}
 
-	USDetour.scrape()
 	var departments = []
 	var aisles = []
 	var page = document.createElement('div')
-	page.appendChild(pageTitle())
+	if (complete) page.appendChild(header())
 
-	for (var i=0, l=USDetour.products.length; i<l; i++) {
-		var product = USDetour.products[i]
+	for (var i=0, l=products.length; i<l; i++) {
+		var product = products[i]
 
 		// Department
 		if (departments.indexOf(product.department.id) == -1) {
@@ -342,6 +341,7 @@ USDetour.render = function() {
 			for (var k=0, kl=option.merchants.length; k<kl; k++) {
 				var merchant = option.merchants[k]
 				var a = document.createElement('a')
+				// TODO Direct here
 				a.href = merchant.url
 				var price = merchant.price + ""
 				var dollars = price.substr(0, price.length-2)
@@ -350,7 +350,7 @@ USDetour.render = function() {
 					a.innerHTML = ["$", dollars, "<sup>.", cents, "</sup> "].join('')	
 				}
 				else {
-					a.innerHTML = "$" + dollars
+					a.innerHTML = "$" + dollars + " "
 				}
 				if (merchant.logo) {
 					a.className = merchant.id
@@ -373,9 +373,9 @@ USDetour.render = function() {
 
 	}
 
-	page.appendChild(footer())
+	if (complete) page.appendChild(footer())
 
-	document.body.innerHTML = page.innerHTML
+	document.body.innerText = page.innerHTML
 
 }
 
