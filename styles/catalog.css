@@ -97,6 +97,11 @@ h5 {
 	font-size: 1.3em;
 }
 
+h5.subproduct {
+	margin-top: 15px; margin-bottom: -10px;
+	font-size: 1.5em;
+}
+
 h6 {
 	width: 50%; margin-bottom: 10px; padding-bottom: 10px;
 	border-bottom: solid white 2px;
@@ -206,14 +211,14 @@ p.discovered {
 	font-size: .8em; color: #888;
 }
 
-p.media a.list {
+p.view a.list {
 	display: inline;
 	border-bottom: solid 1px #fff;
 	color: inherit;
 	cursor: pointer;
 }
 
-p.media a.catalog {
+p.view a.catalog {
 	display: none;
 }
 
