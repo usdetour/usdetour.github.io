@@ -1,32 +1,32 @@
-.red { border-color: red; }
-.maroon { border-color: darkred; }
+.red { border-color: red !important; }
+.maroon { border-color: darkred !important; }
 
-.orange { border-color: orange; }
-.peach { border-color: #E8C088; }
-.amber { border-color: #F3AE2E; }
+.orange { border-color: orange !important; }
+.peach { border-color: #E8C088 !important; }
+.amber { border-color: #F3AE2E !important; }
 
-.yellow { border-color: yellow; }
-.lightyellow { border-color: #F6EDAB; }
+.yellow { border-color: yellow !important; }
+.lightyellow { border-color: #F6EDAB !important; }
 
-.green { border-color: green; }
-.lime { border-color: rgb(163, 224, 85); }
-.olive { border-color: #939739 }
-.teal { border-color: #92BD88; }
-.darkgreen { border-color: darkgreen; }
+.green { border-color: green !important; }
+.lime { border-color: rgb(163, 224, 85) !important; }
+.olive { border-color: #939739 !important; }
+.teal { border-color: #92BD88 !important; }
+.darkgreen { border-color: darkgreen !important; }
 
-.blue { border-color: #00c; }
-.lightblue { border-color: lightblue; }
+.blue { border-color: #00c !important; }
+.lightblue { border-color: lightblue !important; }
 
-.purple { border-color: purple; }
+.purple { border-color: purple !important; }
 
-.white { border-color: #eee; }
-.gray { border-color: #777; }
-.silver { border-color: #999; }
-.black { border-color: black; }
+.white { border-color: #eee !important; }
+.gray { border-color: #777 !important; }
+.silver { border-color: #999 !important; }
+.black { border-color: black !important; }
 
-.gold { border-color: darkgoldenrod; }
-.brown { border-color: saddlebrown; }
+.gold { border-color: darkgoldenrod !important; }
+.brown { border-color: saddlebrown !important; }
 
-.homedepot img { background: #fe6a00; }
-.knifecenter img { background: #f15a2b; }
-.casa img{ background: #84a5ae; }
+.homedepot img { background: #fe6a00 !important; }
+.knifecenter img { background: #f15a2b !important; }
+.casa img { background: #84a5ae !important; }

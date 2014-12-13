@@ -1,68 +1,10 @@
-a {
-	text-decoration: none;
-	color: #444;
-}
-
-address {
-	margin: 20px 5px; padding-top: 10px;
-	border-top: solid 3px #444;
-}
-
-address a {
-	border-bottom: solid 1px #444;
-}
-
 body {
 	font-family: georgia, times, serif; color: #444;
 }
 
-h1, h2, h3, h4, h6 {
-	margin: 5px;
-}
-
-h1, h2 {
-	margin: 20px 5px;
-}
-
-h2 {
-	border-bottom: solid 3px #444;
-}
-
-h3 {
-	margin-top: 30px; margin-bottom: 10px;
-	border-bottom: solid 2px #777;
-	font-size: 1.4em;
-}
-
-h4, h5 {
-	display: inline;
-	margin-top: 20px;
-	font-size: 1.2em;
-}
-
-h5 {
-	margin-left: -4px;
-	font-size: 1em;
-}
-
-h5.subproduct {
-	display: block; margin-left: -4px;
-}
-
-h6 {
-	display: inline; padding-left: 5px;
-	border-left: solid 15px white;
-	font-size: 1em;
-}
-
-h6 em {
-	font-size: .8em;
-}
-
-h6 code {
-	padding: 4px;
-	border: solid 1px #E4DDBE; border-radius: 8px;
-	font-size: 1em; font-weight: normal; color: #A49F87;
+a {
+	text-decoration: none;
+	color: #444;
 }
 
 hr {
@@ -81,29 +23,74 @@ img {
 	display: none;
 }
 
-p {
+p.logo, p.department, p.aisle, p.product, p.option {
+	margin: 5px;
+}
+
+p.logo, p.department {
+	margin: 20px 5px;
+}
+
+p.department {
+	border-bottom: solid 3px #444;
+}
+
+p.aisle {
+	margin-top: 30px; margin-bottom: 10px;
+	border-bottom: solid 2px #777;
+	font-size: 1.4em;
+}
+
+p.product, p.producer {
+	display: inline;
+	margin-top: 20px;
+	font-size: 1.2em;
+}
+
+p.producer {
+	margin-left: -4px;
+	font-size: 1em;
+}
+
+p.option {
+	display: inline; padding-left: 5px;
+	border-left: solid 15px white;
+	font-size: 1em;
+}
+
+p.option b.subtitle {
+	font-size: .8em;
+}
+
+p.option b.model {
+	padding: 4px;
+	border: solid 1px #E4DDBE; border-radius: 8px;
+	font-size: 1em; font-weight: normal; color: #A49F87;
+}
+
+p.description, p.origin, p.discovered, {
 	display: none
 }
 
-p.view {
-	display: block;
-}
-
-p.view a.catalog {
-	border-bottom: solid 1px #444;
-	cursor: pointer;
-}
-
-var {
+p.merchants {
 	display: inline;
 }
 
-var a {
+p.merchants a {
 	display: none; float: right;
 	margin-top: -6px; margin-left: 10px; padding: 3px;
 	font-weight: bold;
 }
 
-var a.direct {
+p.merchants a.direct {
 	display: block;
+}
+
+p.footer {
+	margin: 20px 5px; padding-top: 10px;
+	border-top: solid 3px #444;
+}
+
+p.footer a {
+	border-bottom: solid 1px #444;
 }
