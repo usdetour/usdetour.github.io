@@ -266,7 +266,7 @@ p.merchants a:visited b.merchant img {
 }
 
 p.footer {
-	padding: 20px; background: #444;
+	padding: 20px 0px 20px 0px; background: #444;
 	text-align: center; font-family: georgia, sans-serif; font-style: normal; font-weight: bold; font-size: 1em; color: #fff;
 }
 
