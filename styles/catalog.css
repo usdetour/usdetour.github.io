@@ -172,6 +172,14 @@ p.description {
 	margin-bottom: 5px;
 }
 
+p.origin b a {
+	font-weight: inherit; color: #7E7A68;
+}
+
+p.origin b b {
+	font-weight: inherit;
+}
+
 p.origin b.state {
 	padding: 8px; /* background: #fafaff; */
 	border: solid 2px #7E7A68;
@@ -186,12 +194,10 @@ p.origin b.state:hover {
 }
 */
 
-p.origin b.state a {
-	font-weight: inherit; color: #7E7A68;
-}
-
-p.origin b.state b {
-	font-weight: inherit;
+p.origin b.moving {
+	padding: 8px; /* background: #fafaff; */
+	border: dotted 2px #7E7A68;
+	font-size: .9em; font-weight: bold; color: #7E7A68;
 }
 
 p.discovered {
