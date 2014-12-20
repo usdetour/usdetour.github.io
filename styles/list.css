@@ -22,6 +22,9 @@ img {
 	float: left;
 	display: none;
 }
+p.logo, p.department, p.aisle, p.product, p.producer, p.option {
+	font-weight: bold;
+}
 
 p.logo, p.department, p.aisle, p.product, p.option {
 	margin: 5px;
@@ -31,14 +34,25 @@ p.logo, p.department {
 	margin: 20px 5px;
 }
 
+p.logo {
+	font-size: 1.6em;
+}
+
+p.sublogo {
+	margin-top: -15px;
+	margin-left: 5px;
+}
+
 p.department {
+	margin-top: 60px;
 	border-bottom: solid 3px #444;
+	font-size: 1.4em;
 }
 
 p.aisle {
-	margin-top: 30px; margin-bottom: 10px;
+	margin-top: 40px; margin-bottom: 10px;
 	border-bottom: solid 2px #777;
-	font-size: 1.4em;
+	font-size: 1.2em;
 }
 
 p.product, p.producer {
@@ -68,8 +82,8 @@ p.option b.model {
 	font-size: 1em; font-weight: normal; color: #A49F87;
 }
 
-p.description, p.origin, p.discovered, {
-	display: none
+p.description, p.origin, p.discovered {
+	display: none;
 }
 
 p.merchants {
