@@ -4,6 +4,45 @@ U.S. Detour is a curated collection of
 definitive, high-quality, well-designed products,
 all made in the United States.
 
+## Mission
+
+Our mission is to tell the real story of products:
+how they're made, who makes them, and why they do so.
+The history of the manufacturers,
+intricacies of form and function,
+focusing on the act of creation,
+quality craftsmanship,
+and timeless design.
+
+We want to shift attention to realities,
+over trite advertising fictions.
+
+We see an alternative to the parade of hallow brands,
+the bogus hyped virtues and features,
+the derisive assertions that your life is incomplete without some thing.
+
+We're surrounded by multitudes of stuff,
+in the middle of an unprecedented historical shift from scarcity to plenty.
+This abbundance is overwhelming; with so many options,
+deciding has become the difficulty.
+
+Why choose any single product over another?
+Price? Appearance? Durability?
+
+We believe the real story matters more:
+where it's made,
+who makes it,
+why they do so,
+how long they've been making it,
+and how long it'll last.
+
+Initially we're merely presenting a collection of products,
+with simple descriptions and straightforward layout.
+As we grow, we want to delve deeper into the producers and their products,
+showing how and where they're made,
+what you can do with them,
+and their place in history.
+
 ## Design
 
 The single page layout promotes casual browsing,
