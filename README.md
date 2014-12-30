@@ -1,45 +1,43 @@
 # U.S. Detour
 
-U.S. Detour is a curated collection of
-definitive, high-quality, well-designed products,
+A curated collection of
+definitive,
+high-quality,
+well-designed products,
 all made in the United States.
 
 ## Mission
 
 Our mission is to tell the real story of products:
-how they're made, who makes them, and why they do so.
+how, why, and by whom they&rsquo;re made.
 The history of the manufacturers,
 intricacies of form and function,
-focusing on the act of creation,
+with focus on the act of creation,
 quality craftsmanship,
 and timeless design.
 
 We want to shift attention to realities,
 over trite advertising fictions.
 
-We see an alternative to the parade of hallow brands,
+We see an alternative to
+the parade of hollow brands,
 the bogus hyped virtues and features,
 the derisive assertions that your life is incomplete without some thing.
 
-We're surrounded by multitudes of stuff,
-in the middle of an unprecedented historical shift from scarcity to plenty.
-This abbundance is overwhelming; with so many options,
+We&rsquo;re surrounded by multitudes of stuff,
+undergoing an unprecedented historical shift from scarcity to plenty.
+This abbundance is overwhelming;
+with so many options,
 deciding has become the difficulty.
+Why choose one over another?
+Price? Appearance? Perceived quality?
 
-Why choose any single product over another?
-Price? Appearance? Durability?
+We believe where it comes from and how long it&rsquo;ll last matters more.
 
-We believe the real story matters more:
-where it's made,
-who makes it,
-why they do so,
-how long they've been making it,
-and how long it'll last.
-
-Initially we're merely presenting a collection of products,
+Initially we&rsquo;re merely offering a collection of products,
 with simple descriptions and straightforward layout.
-As we grow, we want to delve deeper into the producers and their products,
-showing how and where they're made,
+As we grow, we&rsquo;ll present more about producers and their products,
+showing how and where they&rsquo;re made,
 what you can do with them,
 and their place in history.
 
@@ -69,7 +67,7 @@ Check out the HTML&mdash;it&rsquo;s more minimal than Tim Berners-Lee&rsquo;s
 I&rsquo;ve tried to isolate only the minimum necessary markup features,
 from HTML ["1.2"](http://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt) to 5.1.
 
-I&rsquo;ve&rsquo;nt intentionally limited usage of recent CSS features
+I&rsquo;ve&rsquo;nt held back on using contemporary CSS features
 (e.g. there are media queries)
 but most of the design has been in terms of typography,
 focused on long-term usability over passing prettiness.
@@ -87,12 +85,12 @@ suppressing my impulse to abstract and encapsulate and otherwise prematurely aut
 
 ## License
 
-Design &copy; Max Terry & Family.
+Design &copy; Terry Family.
 All rights reserved&mdash;for now, since we&rsquo;re not sure where this will go.
 
 Product images are the exclusive property of their respective copyright holders.
-Our understanding is that we're merely helping to market/sell these products,
+Our understanding is that we&rsquo;re merely helping to market/sell these products,
 and our usage falls under fair use.
 
 If you&rsquo;re interested in contributing (or want a product or image removed),
-please contact us at <a href="mailto:detour@usa.com">detour@usa.com</a>.
+please contact us at [detour@usa.com](mailto:detour@usa.com).
