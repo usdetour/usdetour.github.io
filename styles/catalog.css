@@ -37,13 +37,9 @@ p a:visited { /* TODO check this */
 	border-bottom-color: #78497C;
 }
 
-p.logo, p.sublogo {
-	font-weight: bold;
-}
-
 p.logo {
-	padding-top: 20px; vertical-align: middle; background: #444;
-	font-family: georgia, serif; font-size: 1.1em; color: #fff;
+	padding-top: 30px; padding-bottom: 30px; vertical-align: middle; background: #444;
+	font-family: georgia, serif; font-size: 1.1em; font-weight: bold; color: #fff;
 }
 
 p.logo img {
