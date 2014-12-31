@@ -31,3 +31,5 @@
 .homedepot img { background: #fe6a00 !important; }
 .knifecenter img { background: #f15a2b !important; }
 .casa img { background: #84a5ae !important; }
+
+.out-of-stock { display: none; }

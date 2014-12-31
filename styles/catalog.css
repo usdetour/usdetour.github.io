@@ -186,6 +186,19 @@ p.origin b.state {
 	font-size: .9em; font-weight: bold; color: #7E7A68;
 }
 
+p.origin b.address {
+	display: block; margin-top: 30px;
+	font-family: courier, monospace; font-size: .9em;
+}
+
+p.origin b.address a, p.origin b.address b {
+	display: block;
+}
+
+p.origin b.address {
+	display: none;
+}
+
 /*
 p.origin b.state:hover {
 	background: #7E7A68;
