@@ -32,7 +32,7 @@ p {
 	color: inherit;
 }
 
-p a:visited { /* TODO check this */
+p a:visited {
 	color: #78497C;
 	border-bottom-color: #78497C;
 }
