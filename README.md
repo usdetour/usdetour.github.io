@@ -85,7 +85,7 @@ suppressing my impulse to abstract and encapsulate and otherwise prematurely aut
 
 ## License
 
-Design &copy; Terry Family.
+Design &copy; 2014 &ndash; 2015 Terry Family.
 All rights reserved&mdash;for now, since we&rsquo;re not sure where this will go.
 
 Product images are the exclusive property of their respective copyright holders.
