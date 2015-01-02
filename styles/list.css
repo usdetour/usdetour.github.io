@@ -57,6 +57,10 @@ p.department {
 	font-family: "Arial Black", helvetica, arial, sans-serif; font-size: 1.4em; color: #444;
 }
 
+#apparel {
+	margin-top: 20px;
+}
+
 p.aisle {
 	margin-top: 30px; margin-bottom: 30px;
 	border-bottom: solid 2px #BFB99B;
