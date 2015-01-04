@@ -1,0 +1,114 @@
+body {
+	margin: 0px; overflow-y: scroll;
+	font-family: helvetica, arial, sans-serif; font-size: 14pt; color: #444;
+}
+
+a {
+	text-decoration: none; color: #56ae56;
+}
+
+a:not([href]) {
+	color: #7E7A68;
+	border-bottom: none;
+}
+
+b {
+	font-weight: normal;
+}
+
+p, img {
+	margin: 0px;
+}
+
+p, img {
+	margin-left: auto; margin-right: auto;
+	text-align: center;
+}
+
+p {
+	display: block; width: 100%; padding-top: 15px; padding-bottom: 15px;
+	border-bottom-color: inherit;
+	color: inherit;
+}
+
+p a:visited {
+	color: #78497C;
+	border-bottom-color: #78497C;
+}
+
+p.logo {
+	padding-top: 30px; padding-bottom: 30px; vertical-align: middle; background: #444;
+	font-family: georgia, serif; font-size: 2em; font-weight: bold; color: #fff;
+}
+
+p.logo img {
+	display: inline; margin-bottom: 0px;
+}
+
+p.sublogo {
+	margin-top: -30px; padding-bottom: 20px; vertical-align: middle; background: #444;
+	font-family: georgia, serif; font-size: .8em; color: #fff;
+}
+
+p.heading {
+	padding-bottom: 0px;
+	font-style: italic; font-size: 1.5em; font-weight: bold;
+}
+
+p.heading a {
+	color: #444;
+	border-bottom: none;
+}
+
+p.products img {
+	max-height: 64px; max-width: 64px;
+}
+
+p.products a, p.story a {
+	font-size: 2em;
+}
+
+p.producers img {
+
+}
+
+p.merchants img {
+	height: 16px;
+}
+
+p.story img {
+	width: 25%;
+}
+
+p.footer {
+	padding: 20px 0px 20px 0px; background: #444;
+	text-align: center; font-family: georgia, sans-serif; font-style: normal; font-weight: bold; font-size: 1em; color: #fff;
+}
+
+p.footer a {
+	border-bottom: solid 1px #fff;
+	color: inherit;
+}
+
+@media (max-width: 1024px) {
+	img { max-height: 400px; max-width: 400px; }
+	p.option { width: 400px; }
+}
+
+@media (max-width: 568px) {
+	img { max-height: 300px; max-width: 300px; }
+	p.option { width: 300px; }
+}
+
+@media (max-width: 510px) {
+
+	p.merchants a {
+		display: block; width: 90%;
+		padding: 0px; padding-top: 5px; margin-left: auto; margin-right: auto; margin-bottom: 4px;
+	}
+
+	p.merchants a.direct {
+		padding: 5px;
+	}
+
+}
