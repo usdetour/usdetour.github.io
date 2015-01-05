@@ -113,7 +113,7 @@ p.option {
 }
 
 p.option a.title {
-	font-style: normal !important; font-weight: bold !important; font-size: 1.1em;
+	font-style: normal !important; font-weight: bold !important; font-size: 1.1em; color: #444 !important;
 	/* border-bottom-color: #56ae56; */
 }
 
@@ -331,8 +331,8 @@ p.nav {
 }
 
 p.nav a {
-	padding: 10px; background: #E4DDBE;
-	border: solid 1px #A49F87; border-bottom-width: 2px; border-radius: 4px;
+	padding: 10px; padding-left: 15px; padding-right: 15px; background: #E4DDBE;
+	border: solid 1px #A49F87; border-bottom-width: 3px; border-radius: 10px;
 	text-transform: uppercase;
 	font-family: "Arial Black", helvetica, arial, sans-serif; font-size: 1.5em; font-weight: bold; color: #444;
 }
