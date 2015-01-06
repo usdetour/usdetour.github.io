@@ -311,6 +311,20 @@ p.merchants a:visited b.merchant img {
 	font-family: georgia, serif; font-size: 1.5em; font-weight: bold; color: #fff;
 }
 
+/*
+#menu a.area {
+	border-bottom: dashed 1px #eee;
+	text-align: center;
+	font-family: georgia, serif; font-size: .7em; color: #fff;
+}
+
+#menu a.area:hover {
+	border-bottom: none;
+	color: #fff;
+	cursor: normal;
+}
+*/
+
 #menu a.active {
 	border-bottom: solid 2px #fff;
 	color: #fff;
@@ -326,6 +340,7 @@ p.merchants a:visited b.merchant img {
 	text-transform: none;
 }
 
+/*
 p.nav {
 	margin-bottom: 20px;
 }
@@ -336,6 +351,7 @@ p.nav a {
 	text-transform: uppercase;
 	font-family: "Arial Black", helvetica, arial, sans-serif; font-size: 1.5em; font-weight: bold; color: #444;
 }
+*/
 
 p.footer {
 	padding: 20px 0px 20px 0px; background: #444;
