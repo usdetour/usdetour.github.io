@@ -1,5 +1,5 @@
 body {
-	margin: 0px; overflow-y: scroll;
+	margin: 0px; overflow-y: scroll; overflow-x: hidden;
 	font-family: helvetica, arial, sans-serif; font-size: 14pt; color: #444;
 }
 
@@ -197,10 +197,6 @@ p.origin b.address a, p.origin b.address b {
 	display: block;
 }
 
-p.origin b.address {
-	display: none;
-}
-
 /*
 p.origin b.state:hover {
 	background: #7E7A68;
@@ -213,6 +209,10 @@ p.origin b.moving {
 	padding: 8px; /* background: #fafaff; */
 	border: dotted 2px #7E7A68;
 	font-size: .9em; font-weight: bold; color: #7E7A68;
+}
+
+p.origin b.address, p.origin b.since {
+	display: none;
 }
 
 p.discovered {
@@ -370,6 +370,36 @@ p.footer a {
 @media (max-width: 1024px) {
 	img { max-height: 400px; max-width: 400px; }
 	p.option { width: 400px; }
+}
+
+@media (min-width: 787px) {
+	#menu .top, #menu .home {
+		display: none;
+	}
+}
+
+@media (max-width: 786px) {
+
+	#products { width: 100%; }
+
+	#menu {
+		position: static; width: 100%; background: #555;
+		border-right: solid 2px #444;
+		font-family: "Arial Black", helvetica, arial, sans-serif;
+	}
+
+	#menu a {
+		display: none;
+	}
+
+	#menu .top {
+		display: block;
+		padding-bottom: 10px;
+		text-align: center;
+		font-family: georgia, serif; font-size: 1.5em; font-weight: bold; color: #fff !important;
+		cursor: pointer;
+	}
+
 }
 
 @media (max-width: 568px) {
