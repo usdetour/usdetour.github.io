@@ -289,10 +289,6 @@ p.merchants a:visited b.merchant img {
 	font-family: "Arial Black", helvetica, arial, sans-serif;
 }
 
-.menu div {
-
-}
-
 .menu a {
 	display: block;
 	margin: 10px; margin-bottom: 10px; padding-bottom: 4px;
@@ -319,38 +315,11 @@ p.merchants a:visited b.merchant img {
 	cursor: pointer;
 }
 
-/*
-.menu a.area {
-	border-bottom: dashed 1px #eee;
-	text-align: center;
-	font-family: georgia, serif; font-size: .7em; color: #fff;
-}
-
-.menu a.area:hover {
-	border-bottom: none;
-	color: #fff;
-	cursor: normal;
-}
-*/
-
 .menu a.active {
 	margin-bottom: -1px;
 	border-bottom: solid 2px #fff;
 	color: #fff;
 }
-
-/*
-.menu a.aisle {
-	margin-left: 20px;
-	text-transform: none;
-}
-
-
-.menu a.product {
-	margin-left: 40px;
-	text-transform: none;
-}
-*/
 
 #top {
 	display: none; overflow-y: hidden;
@@ -364,19 +333,6 @@ p.merchants a:visited b.merchant img {
 #top a:last-child {
 	margin-bottom: 10px;
 }
-
-/*
-p.nav {
-	margin-bottom: 20px;
-}
-
-p.nav a {
-	padding: 10px; padding-left: 15px; padding-right: 15px; background: #E4DDBE;
-	border: solid 1px #A49F87; border-bottom-width: 3px; border-radius: 10px;
-	text-transform: uppercase;
-	font-family: "Arial Black", helvetica, arial, sans-serif; font-size: 1.5em; font-weight: bold; color: #444;
-}
-*/
 
 p.footer {
 	padding: 20px 0px 20px 0px; background: #444;
@@ -394,21 +350,13 @@ p.footer a {
 }
 
 @media (max-width: 786px) {
-
 	#products { width: 100%; }
-
-	.menu {
-		position: static; width: 100%;
-	}
-
-	.menu a {
-		display: none;
-	}
-
-	#top, #top .logo {
-		display: block !important;
-	}
-
+	.menu { position: static; width: 100%; height: auto; }
+	.menu a { display: none; }
+	#top, #top a.logo { display: block !important; }
+	/* Static rendition: problem is scrolling menu on small height screen */
+	/* #products { margin-top: 84px; } */
+	/* .menu { width: 100%; height: auto; opacity: .9; background: #444; } */
 }
 
 @media (max-width: 568px) {
