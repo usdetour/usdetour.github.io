@@ -4,6 +4,7 @@
 	<title>U.S. Detour &ndash; Automotive, Car, and Truck Products Made in USA</title>
 	<link rel="stylesheet" href="../styles/catalog.css" />
 	<link rel="stylesheet" href="../styles/colors.css" />
+	<script src="menu.js"></script>
 	<meta charset="utf-8" />
 	<meta name="description" content="America&rsquo;s best automotive stuff. High-quality, well-designed, made in USA." />
 	<meta name="author" content="The Terry Family" />
@@ -11,7 +12,22 @@
 </head>
 <body>
 	<div id="page">
-		<div id="menu"><div>
+		<div id="top" class="menu"><div>
+			<a class="logo" href="../index.html">U.S. Detour</a>
+			<a class="toggle" onclick="toggleMenu()">Menu</a>
+			<a href="apparel.html">Apparel</a>
+			<a href="footwear.html">Footwear</a>
+			<a href="bags.html">Bags</a>
+			<a href="sports.html">Sports</a>
+			<a href="dining.html">Dining</a>
+			<a href="kitchen.html">Kitchen</a>
+			<a href="household.html">Household</a>
+			<a href="yard.html">Yard</a>
+			<a href="tools.html">Tools</a>
+			<a href="outdoors.html">Outdoors</a>
+			<a href="automotive.html" class="active">Automotive</a>
+		</div></div>
+		<div id="side" class="menu"><div>
 			<a class="logo" href="../index.html">U.S. Detour</a>
 			<a href="apparel.html">Apparel</a>
 			<a href="footwear.html">Footwear</a>
@@ -23,7 +39,7 @@
 			<a href="yard.html">Yard</a>
 			<a href="tools.html">Tools</a>
 			<a href="outdoors.html">Outdoors</a>
-			<a href="#automotive" class="active">Automotive</a>
+			<a href="automotive.html" class="active">Automotive</a>
 		</div></div>
 		<div id="products"><div>
 			<p class="department" id="automotive">

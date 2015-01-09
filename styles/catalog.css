@@ -36,6 +36,7 @@ p a:visited {
 	border-bottom-color: #78497C;
 }
 
+/*
 p.logo {
 	display: none;
 	padding-top: 30px; padding-bottom: 30px; vertical-align: middle; background: #444;
@@ -50,6 +51,7 @@ p.sublogo {
 	margin-top: -30px; padding-bottom: 20px; vertical-align: middle; background: #444;
 	font-family: georgia, serif; font-size: .8em; color: #fff;
 }
+*/
 
 #products {
 	float: right; width: 75%;
@@ -280,69 +282,88 @@ p.merchants a:visited b.merchant img {
 	border-color: #47194C;
 }
 
-#menu {
+.menu {
 	position: fixed; float: left; width: 25%; height: 100%; overflow-y: auto;
 	background: #555;
 	border-right: solid 2px #444;
 	font-family: "Arial Black", helvetica, arial, sans-serif;
 }
 
-#menu div {
+.menu div {
 
 }
 
-#menu a {
+.menu a {
 	display: block;
-	margin: 10px;
-	margin-bottom: 10px; padding-bottom: 4px;
+	margin: 10px; margin-bottom: 10px; padding-bottom: 4px;
 	border-bottom: solid 1px #BFB99B;
 	text-transform: uppercase;
 	font-weight: bold; color: #E4DDBE;
 }
 
-#menu a:hover {
+.menu a:hover {
 	color: #fff;
 	border-bottom-color: #fff;
 }
 
-#menu a.logo {
+.menu a.logo {
 	padding-bottom: 10px;
 	text-align: center;
 	font-family: georgia, serif; font-size: 1.5em; font-weight: bold; color: #fff;
 }
 
+.menu .toggle {
+	display: block;
+	text-align: center;
+	font-family: georgia, serif; font-size: .8em;
+	cursor: pointer;
+}
+
 /*
-#menu a.area {
+.menu a.area {
 	border-bottom: dashed 1px #eee;
 	text-align: center;
 	font-family: georgia, serif; font-size: .7em; color: #fff;
 }
 
-#menu a.area:hover {
+.menu a.area:hover {
 	border-bottom: none;
 	color: #fff;
 	cursor: normal;
 }
 */
 
-#menu a.active {
+.menu a.active {
 	margin-bottom: -1px;
 	border-bottom: solid 2px #fff;
 	color: #fff;
 }
 
 /*
-#menu a.aisle {
+.menu a.aisle {
 	margin-left: 20px;
 	text-transform: none;
 }
 
 
-#menu a.product {
+.menu a.product {
 	margin-left: 40px;
 	text-transform: none;
 }
 */
+
+#top {
+	display: none; overflow-y: hidden;
+}
+
+#top a.logo {
+	padding: 0px;
+	border: none;
+}
+
+#top a:last-child {
+	margin-bottom: 10px;
+}
 
 /*
 p.nav {
@@ -372,32 +393,20 @@ p.footer a {
 	p.option { width: 400px; }
 }
 
-@media (min-width: 787px) {
-	#menu .top, #menu .home {
-		display: none;
-	}
-}
-
 @media (max-width: 786px) {
 
 	#products { width: 100%; }
 
-	#menu {
-		position: static; width: 100%; background: #555;
-		border-right: solid 2px #444;
-		font-family: "Arial Black", helvetica, arial, sans-serif;
+	.menu {
+		position: static; width: 100%;
 	}
 
-	#menu a {
+	.menu a {
 		display: none;
 	}
 
-	#menu .top {
-		display: block;
-		padding-bottom: 10px;
-		text-align: center;
-		font-family: georgia, serif; font-size: 1.5em; font-weight: bold; color: #fff !important;
-		cursor: pointer;
+	#top, #top .logo {
+		display: block !important;
 	}
 
 }
