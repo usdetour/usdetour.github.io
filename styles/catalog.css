@@ -283,8 +283,7 @@ p.merchants a:visited b.merchant img {
 }
 
 .menu {
-	position: fixed; float: left; width: 25%; height: 100%; overflow-y: auto;
-	background: #555;
+	position: fixed; float: left; width: 25%; height: 100%; overflow-y: auto; background: #555;
 	border-right: solid 2px #444;
 	font-family: "Arial Black", helvetica, arial, sans-serif;
 }
