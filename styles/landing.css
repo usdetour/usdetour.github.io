@@ -51,8 +51,9 @@ p.sublogo {
 }
 
 p.heading {
-	padding-bottom: 0px;
-	font-style: italic; font-size: 1.5em; font-weight: bold;
+	background: #E4DDBE;
+	border-bottom: solid 1px #A49F87;
+	font-family: helvetica, arial, sans-serif; font-size: 1.5em; font-style: italic; font-weight: bold; color: #444;
 }
 
 p.heading a {
@@ -60,20 +61,39 @@ p.heading a {
 	border-bottom: none;
 }
 
-p.products img {
-	max-height: 64px; max-width: 64px;
+p.details {
+	padding-left: 10px; padding-right: 10px; background: #FCFAF1;
+	border-bottom: solid 1px #FAF6E4;
 }
 
-p.products a, p.story a {
-	font-size: 2em;
+p.producers a img, p.products img, p.merchants img {
+	vertical-align: middle;
+	max-width: 64px;
+}
+
+p.producers {
+	height: 64px;
 }
 
 p.producers img {
+	vertical-align: middle;
+	max-height: 64px; max-width: 64px;
+}
+
+@media (max-width: 500px) {
+
+	p.producers {
+		margin-bottom: 100px;
+	}
 
 }
 
-p.merchants img {
-	height: 16px;
+p.products a.sign, p.story a.sign {
+	display: block; width: 25%; min-width: 200px;
+	margin-left: auto; margin-right: auto;
+	margin-top: 20px; margin-bottom: 10px; padding: 8px; background: #56ae56;
+	border: solid 1px #267d26; border-bottom: solid 2px #267d26; border-radius: 4px;
+	font-size: 1.5em; font-weight: bold; color: #fff;
 }
 
 p.story img {

@@ -69,7 +69,7 @@ p.department {
 	background: #E4DDBE;
 	border-bottom: solid 1px #A49F87;
 	text-transform: uppercase;
-	font-family: "Arial Black", helvetica, arial, sans-serif; font-size: 1.5em; color: #444;
+	font-family: "Arial Black", helvetica, arial, sans-serif; font-size: 1.5em; font-weight: bold; color: #444;
 }
 
 p.aisle {
