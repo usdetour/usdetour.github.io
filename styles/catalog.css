@@ -61,6 +61,11 @@ p.product, p.producer, p.product b {
 	font-weight: bold;
 }
 
+p.product a.direct {
+	padding: 4px; padding-left: 6px; padding-right: 6px;
+	border: solid 1px #56ae56;
+}
+
 p.department a, p.aisle a {
 	color: inherit !important;
 }
@@ -120,12 +125,12 @@ p.option a.title {
 }
 
 p.option a.title b {
-	font-weight: bold;
+	font-weight: bold; color: #6C6852;
 }
 
 p.option b.subtitle {
 	display: block;
-	font-style: normal;
+	font-style: normal; color: #6C6852;
 	/*
 	width: 200px; margin-top: 4px; margin-left: auto; margin-right: auto; padding: 3px; background: lightyellow;
 	border: solid #eee 1px; border-bottom: solid #aaa 1px;
@@ -145,7 +150,7 @@ p.size, p.color, p.model {
 p.option b.model {
 	display: block; width: 60%; margin-top: 5px; margin-left: auto; margin-right: auto; padding: 4px;
 	border: solid 1px #E4DDBE; border-radius: 16px;
-	text-align: center; font-family: monaco, consolas, monospace; font-style: normal; font-size: .8em; color: #A49F87;
+	text-align: center; font-family: monaco, consolas, monospace; font-style: normal; font-size: .8em; color: #6C6852;
 }
 
 p.option b.model:before {
@@ -223,45 +228,70 @@ p.discovered {
 	font-size: .8em; color: #888;
 }
 
-p.merchants {
+p.merchants, p.sellers {
 	display: block; margin-bottom: 40px;
 	font-family: georgia; font-style: normal; font-weight: normal; color: #fff;
 }
 
-p.merchants a {
+p.merchants a, p.sellers a.direct {
 	width: 100px; margin-right: 10px; padding: 8px; padding-bottom: 9px; vertical-align: middle; background: #6988B8;
 	border: solid #5E79A1 1px; border-bottom-width: 3px; border-radius: 10px;
 	color: #eee;
 }
 
-p.merchants a.direct {
+p.merchants b.kind, p.sellers b.kind {
+	display: block; width: 25%;
+	margin-left: auto; margin-right: auto; margin-bottom: 10px;
+	border-bottom: solid 1px #aaa;
+	font-family: verdana; font-size: .8em; font-weight: bold; color: #777;
+}
+
+p.merchants a.msrp, p.sellers a.msrp {
+	display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px; background-color: #fff;
+	font-size: 1.3em; color: #56ae56;
+}
+
+p.sellers a.msrp {
+	margin-top: 15px;
+}
+
+p.sellers a.msrp b.price {
+	padding: 6px;
+	border: solid #56ae56 1px; border-bottom-width: 2px;
+}
+
+p.merchants a.direct, p.sellers a.direct {
 	display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px; background-color: #56ae56;
 	border-color: #267d26;
 	font-size: 1.3em; color: #fff;
 }
 
-p.merchants b.cents {
+p.merchants a.detour, p.sellers a.detour {
+	background-color: #fff;
+	border-color: #444; border-radius: 0px;
+}
+
+p.merchants b.cents, p.sellers b.cents {
 	vertical-align: super;
 	font-size: .6em;
 }
 
-p.merchants b.merchant {
+p.merchants b.merchant, p.sellers b.seller {
 	margin-top: 20px; margin-left: 2px; padding: 5px; background: #5E79A1;
 	border-radius: 4px;
 	font-family: verdana, helvetica, arial, sans-serif; font-weight: normal; font-size: .7em; color: #eee;
 }
 
-/*
-p.merchants b.merchant {
-	padding-top: 6px;
-	border-bottom: solid 1px #216B21;
-}
-*/
-
 p.merchants img {
 	display: inline; height: 16px; width: 16px; vertical-align: middle;
 	margin-left: 4px; margin-top: 8px; padding: 2px; background: #fff;
 	border-radius: 2px;
+}
+
+p.sellers img {
+	display: inline; vertical-align: middle; max-height: 32px; max-width: 64px;
+	padding: 5px;
+	border: solid 4px black; border-radius: 4px;
 }
 
 p.merchants b.merchant img {
@@ -271,6 +301,10 @@ p.merchants b.merchant img {
 p.merchants a:visited {
 	background-color: #78497C;
 	border-color: #58365A;
+}
+
+p.sellers a:visited img {
+	border: solid 10px #78497C !important;
 }
 
 p.merchants a:visited b.merchant {
