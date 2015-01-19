@@ -257,7 +257,8 @@ p.sellers a.msrp {
 
 p.sellers a.msrp b.price {
 	padding: 6px;
-	border: solid #56ae56 1px; border-bottom-width: 2px;
+	border: solid #777 1px; border-bottom-width: 2px;
+	color: #777;
 }
 
 p.merchants a.direct, p.sellers a.direct {
@@ -268,7 +269,7 @@ p.merchants a.direct, p.sellers a.direct {
 
 p.merchants a.detour, p.sellers a.detour {
 	background-color: #fff;
-	border-color: #444; border-radius: 0px;
+	border-color: red; border-radius: 0px;
 }
 
 p.merchants b.cents, p.sellers b.cents {
@@ -291,7 +292,7 @@ p.merchants img {
 p.sellers img {
 	display: inline; vertical-align: middle; max-height: 32px; max-width: 64px;
 	padding: 5px;
-	border: solid 4px black; border-radius: 4px;
+	border: solid 4px #56ae56; border-radius: 4px;
 }
 
 p.merchants b.merchant img {
