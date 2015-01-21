@@ -195,6 +195,12 @@ p.origin b.state {
 	font-size: .9em; font-weight: bold; color: #7E7A68;
 }
 
+p.origin b.state:hover {
+	background: #7E7A68;
+	color: #fff;
+	cursor: pointer;
+}
+
 p.origin b.address {
 	display: block; margin-top: 30px;
 	font-family: courier, monospace; font-size: .9em;
