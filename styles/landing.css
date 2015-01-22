@@ -80,7 +80,11 @@ p.producers img {
 	max-height: 64px; max-width: 64px;
 }
 
-@media (max-width: 500px) {
+p.merchants img {
+	max-width: 48px;
+}
+
+@media (max-width: 600px) {
 
 	p.producers {
 		margin-bottom: 100px;
@@ -97,7 +101,7 @@ p.products a.sign, p.story a.sign {
 }
 
 p.story img {
-	width: 25%;
+	width: 45%;
 }
 
 p.footer {
@@ -118,17 +122,4 @@ p.footer a {
 @media (max-width: 568px) {
 	img { max-height: 300px; max-width: 300px; }
 	p.option { width: 300px; }
-}
-
-@media (max-width: 510px) {
-
-	p.merchants a {
-		display: block; width: 90%;
-		padding: 0px; padding-top: 5px; margin-left: auto; margin-right: auto; margin-bottom: 4px;
-	}
-
-	p.merchants a.direct {
-		padding: 5px;
-	}
-
 }
