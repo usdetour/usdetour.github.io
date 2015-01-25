@@ -178,6 +178,7 @@ p.description, p.origin, p.discovered {
 }
 
 p.description {
+	width: 75%;
 	margin-bottom: 5px;
 }
 
