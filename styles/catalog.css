@@ -81,7 +81,7 @@ p.aisle {
 	background: #BFB99B;
 	border-bottom: solid 1px #A49F87;
 	text-transform: uppercase;
-	font-family: "Arial Black", helvetica, arial, sans-serif; font-size: 1em; color: #444;
+	font-family: "Arial Black", helvetica, arial, sans-serif; font-size: 1em; font-weight: bold; color: #444;
 }
 
 /*
