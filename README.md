@@ -1,7 +1,7 @@
 # U.S. Detour
 
 A curated collection of
-definitive,
+authentic,
 high-quality,
 well-designed products,
 all made in the United States.
@@ -43,14 +43,9 @@ and their place in history.
 
 ## Design
 
-The single page layout promotes casual browsing,
-without excessive nesting and over-organization.
-
-There are currently ~20 listed products and >20 lined up.
-We&rsquo;re waiting to see when we hit the limits of the one page;
-right now, each product addition tends to shift the organization of
-&ldquo;departments&rdquo; (top-level categories) and
-&ldquo;aisles&rdquo; (sub-categories).
+We started out with a single product on a single page,
+added products until hitting the limit of that one page,
+and now have close to 100 products, across 11 pages.
 
 Since everything comes from America,
 we&rsquo;re including the specific state where the item was produced.
@@ -72,9 +67,6 @@ I&rsquo;ve&rsquo;nt held back on using contemporary CSS features
 but most of the design has been in terms of typography,
 focused on long-term usability over passing prettiness.
 
-It renders well in IE 4.0 (released in October 1997) and
-[NetFront](http://gl.access-company.com/products/browser/browser/) 4.2.
-
 Though TBL [didn&rsquo;t intend HTML to be written directly](http://www.w3.org/People/Berners-Lee/Weaving/Overview.html)
 [*Weaving the Web*, first edition, page 42],
 that was how I got into software development,
@@ -82,6 +74,28 @@ back in junior high, around the turn of the millennium.
 After spending the better part of this decade hacking MEAN and LAMP,
 it&rsquo;s been thoroughly refreshing to focus exclusively on design and content,
 suppressing my impulse to abstract and encapsulate and otherwise prematurely automate.
+
+## About Us
+
+### Mark & Frances, Parents
+
+> We grew up on the North Shore of Lake Michigan, met in 1982, and have been married 30 years.
+> From 1985 to 1987, we traveled around the country together testing hearing at factories,
+> giving us the chance to experience the integrity and diversity of American manufacturers.
+> We had Max in 1987 and Maddee in 1992, and moved to Maine in the fall of 1997.
+> Mark has studied film, recorded an album, and carried mail for 24 years.
+> Frances has played and coached volleyball, homeschooled the kids, and managed a parks & rec, athletic department, and healthcare practice.
+
+### Maxwell & Hilary, Expecting
+
+> We went to Kennebunk High School, met in 2009, and have been together 5 years.
+> Max has studied software engineering, worked back-of-house at restaurants, and built apps & APIs for the transport industry.
+> Hilary has studied social engineering, worked front-of-house at restaurants, and redesigned & renovated houses.
+
+### Madalyn, Existing
+
+> I graduated from Kennebunk High School in 2005 and the University of Southern Maine in 2014.
+> I've studied English, worked at a farm stand for 5 years, and conducted medical correspondence.
 
 ## License
 
