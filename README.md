@@ -77,7 +77,7 @@ suppressing my impulse to abstract and encapsulate and otherwise prematurely aut
 
 ## About Us
 
-### Mark & Frances, Parents
+### Mark & Frances, Grandparents
 
 > We grew up on the North Shore of Lake Michigan, met in 1982, and have been married 30 years.
 > From 1985 to 1987, we traveled around the country together testing hearing at factories,
@@ -86,13 +86,13 @@ suppressing my impulse to abstract and encapsulate and otherwise prematurely aut
 > Mark has studied film, recorded an album, and carried mail for 24 years.
 > Frances has played and coached volleyball, homeschooled the kids, and managed a parks & rec, athletic department, and healthcare practice.
 
-### Maxwell & Hilary, Expecting
+### Maxwell & Hilary, Parents
 
 > We went to Kennebunk High School, met in 2009, and have been together 5 years.
 > Max has studied software engineering, worked back-of-house at restaurants, and built apps & APIs for the transport industry.
 > Hilary has studied social engineering, worked front-of-house at restaurants, and redesigned & renovated houses.
 
-### Madalyn, Existing
+### Madalyns
 
 > I graduated from Kennebunk High School in 2005 and the University of Southern Maine in 2014.
 > I've studied English, worked at a farm stand for 5 years, and conducted medical correspondence.
