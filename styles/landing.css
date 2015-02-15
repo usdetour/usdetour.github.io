@@ -71,10 +71,6 @@ p.producers a img, p.products img, p.merchants img {
 	max-width: 64px;
 }
 
-p.producers {
-	height: 64px;
-}
-
 p.producers img {
 	vertical-align: middle;
 	max-height: 64px; max-width: 64px;
@@ -84,24 +80,35 @@ p.merchants img {
 	max-width: 48px;
 }
 
-@media (max-width: 600px) {
-
-	p.producers {
-		margin-bottom: 100px;
-	}
-
-}
-
-p.products a.sign, p.story a.sign {
+a.sign {
 	display: block; width: 25%; min-width: 200px;
 	margin-left: auto; margin-right: auto;
 	margin-top: 20px; margin-bottom: 10px; padding: 8px; background: #56ae56;
-	border: solid 1px #267d26; border-bottom: solid 2px #267d26; border-radius: 4px;
-	font-size: 1.5em; font-weight: bold; color: #fff;
+	border: solid 1px #267d26; border-bottom: solid 2px #267d26 !important; border-radius: 4px;
+	text-align: center;
+	font-size: 1.5em; font-weight: bold; color: #fff !important;
 }
 
 p.story img {
 	width: 45%;
+}
+
+p.left {
+	float: left; width: 50%;
+	text-align: center;
+}
+
+p.right {
+	float: right; width: 50%;
+	text-align: center;
+}
+
+small {
+	font-size: .8em; color: #777;
+}
+
+time {
+	font-family: georgia; font-size: 2em;
 }
 
 p.footer {
