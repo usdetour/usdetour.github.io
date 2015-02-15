@@ -157,6 +157,20 @@ p.option b.model:before {
 	content: "Model ";
 }
 
+p.option b.dimensions {
+	display: none;
+	border: dashed 1px #222;
+}
+
+a.nav {
+	display: block;
+	padding-bottom: 20px; background: #444;
+	border-bottom: solid white 2px;
+	text-align: center; text-transform: uppercase;
+	font-family: "arial black", helvetica, sans-serif; font-size: 3em;
+	color: #E4DDBE !important;
+}
+
 hr {
 	height: 0;
 	border: 0; border-bottom: dotted 1px #777;
@@ -194,12 +208,7 @@ p.origin b.state {
 	padding: 8px; /* background: #fafaff; */
 	border: solid 2px #7E7A68;
 	font-size: .9em; font-weight: bold; color: #7E7A68;
-}
-
-p.origin b.state:hover {
-	background: #7E7A68;
-	color: #fff;
-	cursor: pointer;
+	cursor: pointer;	
 }
 
 p.origin b.address {
@@ -353,12 +362,30 @@ p.sellers a:visited img {
 
 p.footer {
 	padding: 20px 0px 20px 0px; background: #444;
-	text-align: center; font-family: georgia, sans-serif; font-style: normal; font-weight: bold; font-size: 1em; color: #fff;
+	text-align: center; font-family: verdana, sans-serif; font-style: normal; font-weight: bold; font-size: .7em; color: #fff;
 }
 
 p.footer a {
-	border-bottom: solid 1px #fff;
 	color: inherit;
+}
+
+p.footer b a {
+	font-weight: inherit;
+}
+
+p.footer b b {
+	font-weight: inherit;
+}
+
+p.footer img {
+	display: inline;
+}
+
+p.footer b.state {
+	padding: 8px;
+	border: solid 2px #7E7A68;
+	font-weight: bold;
+	cursor: pointer;
 }
 
 @media (max-width: 1024px) {

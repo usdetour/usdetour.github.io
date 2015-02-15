@@ -8,14 +8,6 @@
 	<meta name="description" content="America&rsquo;s best automotive stuff. High-quality, well-designed, made in USA." />
 	<meta name="author" content="The Terry Family" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
-for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
-mixpanel.init("8e64b869b278411cfe6bf1f226179aa6");</script>
-	<script type="text/javascript">
-		mixpanel.track_links("a", "click link", {
-			"referrer": document.referrer
-		});
-	</script>
 </head>
 <body>
 	<div id="page">
@@ -25,6 +17,7 @@ mixpanel.init("8e64b869b278411cfe6bf1f226179aa6");</script>
 			<a href="apparel.html">Apparel</a>
 			<a href="footwear.html">Footwear</a>
 			<a href="bags.html">Bags</a>
+			<a href="accessories.html">Accessories</a>
 			<a href="sports.html">Sports</a>
 			<a href="dining.html">Dining</a>
 			<a href="kitchen.html">Kitchen</a>
@@ -33,7 +26,8 @@ mixpanel.init("8e64b869b278411cfe6bf1f226179aa6");</script>
 			<a href="yard.html">Yard</a>
 			<a href="outdoors.html">Outdoors</a>
 			<a href="vehicles.html" class="active">Vehicles</a>
-			<a href="automotive.html">Automotive</a>			
+			<a href="vehicles.html">Vehicles</a>
+			<a href="automotive.html">Automotive</a>
 			<a href="us.html">About Us</a>
 		</div></div>
 		<div id="side" class="menu"><div>
@@ -41,6 +35,7 @@ mixpanel.init("8e64b869b278411cfe6bf1f226179aa6");</script>
 			<a href="apparel.html">Apparel</a>
 			<a href="footwear.html">Footwear</a>
 			<a href="bags.html">Bags</a>
+			<a href="accessories.html">Accessories</a>
 			<a href="sports.html">Sports</a>
 			<a href="dining.html">Dining</a>
 			<a href="kitchen.html">Kitchen</a>
@@ -49,6 +44,7 @@ mixpanel.init("8e64b869b278411cfe6bf1f226179aa6");</script>
 			<a href="yard.html">Yard</a>
 			<a href="outdoors.html">Outdoors</a>
 			<a href="vehicles.html" class="active">Vehicles</a>
+			<a href="vehicles.html">Vehicles</a>
 			<a href="automotive.html">Automotive</a>
 			<a href="us.html">About Us</a>
 		</div></div>
@@ -143,6 +139,7 @@ mixpanel.init("8e64b869b278411cfe6bf1f226179aa6");</script>
 				</a>
 			</p>
 			-->
+			<!--
 			<p class="aisle" id="station-wagons">
 				<a href="#station-wagons">Wagons</a>
 			</p>
@@ -394,11 +391,35 @@ mixpanel.init("8e64b869b278411cfe6bf1f226179aa6");</script>
 					<b class="price">$<b class="cents">.</b></b>
 				</a>
 			</p>
+			-->
+			<a class="nav" href="automotive.html">&rarr;</a>
+			<a class="nav" href="outdoors.html">&larr;</a>
+			<a class="nav" href="#">&uarr;</a>
 			<p class="footer">
-				<a href="mailto:detour@usa.com">detour@usa.com</a>
-				&copy; MMXV
+				U.S. Detour, LLC &copy; MMXV
+				<br /><br />
+				<b class="state" style="padding: 4px; border:solid 1px white">
+					Made in <b title="Kennebunkport, ME">Maine</b>
+				</b>
+				<br /><br />
+				<a href="https://github.com/usdetour">
+					<img src="../products/usdetour/github.png" alt="Hosting by GitHub" height=31 />
+				</a>
+				<br />		
+				<a href="http://www.viglink.com/legal/disclosures/users?vgtag=badge">
+					<img src="../products/usdetour/viglink.png" alt="Links monetized by VigLink" />
+				</a>
+				<a href="https://mixpanel.com/f/partner">
+					<img src="../products/usdetour/mixpanel.png" alt="Mobile Analytics by Mixpanel" height=31 />
+				</a>
+				<!--
+				//cdn.mxpnl.com/site_media/images/partner/badge_light.png
+				-->
 			</p>
-			<script src="menu.js"></script>
+			<script src="../scripts/mixpanel.js"></script>
+			<script src="../scripts/analytics.js"></script>
+			<script src="../scripts/menu.js"></script>
+			<script src="../scripts/viglink.js"></script>
 		</div></div>
 	</div>
 </body>
