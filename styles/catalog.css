@@ -16,6 +16,14 @@ b {
 	font-weight: normal;
 }
 
+i.fi-arrow-right {
+	margin-left: 10px;
+}
+
+i.fi-arrow-left, i.fi-arrow-up {
+	margin-right: 10px;
+}
+
 p, img {
 	margin: 0px;
 }
