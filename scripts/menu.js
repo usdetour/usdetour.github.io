@@ -36,6 +36,7 @@ function toggleMenu(elt) {
 		}
 		shownMenu = true
 	}
+	return false
 }
 
 document.body.onload = function() {
