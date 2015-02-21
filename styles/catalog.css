@@ -121,6 +121,10 @@ p.producer {
 	font-size: 1.3em;
 }
 
+p.producer img {
+	max-height: 32px; max-width: 64px;
+}
+
 p.option {
 	width: 50%; margin-bottom: 10px; padding-bottom: 10px;
 	border-bottom: solid white 2px;
@@ -257,26 +261,22 @@ p.sellers {
 	font-family: georgia; font-style: normal; font-weight: normal; color: #fff;
 }
 
+p.sellers b.kind {
+	display: block; width: 30%;
+	margin-left: auto; margin-right: auto; margin-bottom: 10px;
+	border-bottom: solid 1px #aaa;
+	font-family: verdana; font-size: .8em; font-weight: bold; color: #777;
+}
+
 p.sellers a.direct {
 	width: 100px; margin-right: 10px; padding: 8px; padding-bottom: 9px; vertical-align: middle; background: #6988B8;
 	border: solid #5E79A1 1px; border-bottom-width: 3px; border-radius: 10px;
 	color: #eee;
 }
 
-p.sellers b.kind {
-	display: block; width: 25%;
-	margin-left: auto; margin-right: auto; margin-bottom: 10px;
-	border-bottom: solid 1px #aaa;
-	font-family: verdana; font-size: .8em; font-weight: bold; color: #777;
-}
-
 p.sellers a.msrp {
-	display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px; background-color: #fff;
+	display: block; margin-top: 15px; margin-left: auto; margin-right: auto; margin-bottom: 20px; background-color: #fff;
 	font-size: 1.3em; color: #56ae56;
-}
-
-p.sellers a.msrp {
-	margin-top: 15px;
 }
 
 p.sellers a.msrp b.price {
@@ -315,6 +315,23 @@ p.sellers img {
 
 p.sellers a:visited img {
 	border: solid 10px #78497C !important;
+}
+
+input[type=text] {
+	display: block;
+	margin-top: -56px; margin-bottom: 20px; margin-left: auto; margin-right: auto;
+	padding: 10px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+input[type=submit] {
+	display: block;
+	margin-top: -10px; margin-left: auto; margin-right: auto; margin-bottom: 20px;
+	padding: 12px; padding-bottom: 11px; vertical-align: middle; background-color: #56ae56;
+	border: solid #267d26 1px; border-bottom-width: 3px; border-radius: 10px; outline: none;
+	font-family: georgia, serif; font-size: 1.3em; color: #fff;
+	cursor: pointer;
 }
 
 .menu {
