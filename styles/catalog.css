@@ -291,9 +291,9 @@ p.sellers a.direct {
 	font-size: 1.3em; color: #fff;
 }
 
-p.sellers a.merchant {
-	background-color: #fff;
-	border-color: red; border-radius: 0px;
+p.sellers a.direct:visited {
+	background: #78497C;
+	border-color: #492D4C;
 }
 
 p.sellers b.cents {
