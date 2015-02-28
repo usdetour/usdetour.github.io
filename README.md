@@ -92,7 +92,7 @@ suppressing my impulse to abstract and encapsulate and otherwise prematurely aut
 > Max has studied software engineering, worked back-of-house at restaurants, and built apps & APIs for the transport industry.
 > Hilary has studied social engineering, worked front-of-house at restaurants, and redesigned & renovated houses.
 
-### Madalyns
+### Madalyn
 
 > I graduated from Kennebunk High School in 2005 and the University of Southern Maine in 2014.
 > I've studied English, worked at a farm stand for 5 years, and conducted medical correspondence.
