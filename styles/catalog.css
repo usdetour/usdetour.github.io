@@ -382,6 +382,19 @@ input[type=submit] {
 	border: none;
 }
 
+#bottom a:last-child {
+	margin-bottom: 10px;
+}
+
+#bottom {
+	display: none; overflow-y: hidden;
+}
+
+#bottom a.logo {
+	padding: 0px;
+	border: none;
+}
+
 #top a:last-child {
 	margin-bottom: 10px;
 }
@@ -423,7 +436,10 @@ p.footer b.state {
 	#products { width: 100%; }
 	.menu { position: static; width: 100%; height: auto; }
 	.menu a { display: none; }
+	#bottom.menu a { display: block; }
 	#top, #top a.logo { display: block !important; }
+	#bottom, #bottom a.logo { display: block !important; }
+	#bottom { margin-bottom: 20px; }
 	/* Static rendition: problem is scrolling menu on small height screen */
 	/* #products { margin-top: 84px; } */
 	/* .menu { width: 100%; height: auto; opacity: .9; background: #444; } */
