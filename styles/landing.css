@@ -37,7 +37,7 @@ p a:visited {
 }
 
 p.logo {
-	padding-top: 30px; padding-bottom: 30px; vertical-align: middle; background: #444;
+	padding-top: 30px; padding-bottom: 30px; vertical-align: middle;
 	font-family: georgia, serif; font-size: 2em; font-weight: bold; color: #fff;
 }
 
